@@ -1,0 +1,4279 @@
+public class Codebeautify {
+ Project ProjectObject;
+
+
+ // Getter Methods 
+
+ public Project getProject() {
+  return ProjectObject;
+ }
+
+ // Setter Methods 
+
+ public void setProject(Project ProjectObject) {
+  this.ProjectObject = ProjectObject;
+ }
+}
+public class Project {
+ ProjectInfo ProjectInfoObject;
+ Models ModelsObject;
+ Diagrams DiagramsObject;
+ private String _Author;
+ private String _CommentTableSortAscending;
+ private String _CommentTableSortColumn;
+ private String _DocumentationType;
+ private String _ExportedFromDifferentName;
+ private String _ExporterVersion;
+ private String _Name;
+ private String _TextualAnalysisHighlightOptionCaseSensitive;
+ private String _UmlVersion;
+ private String _Xml_structure;
+
+
+ // Getter Methods 
+
+ public ProjectInfo getProjectInfo() {
+  return ProjectInfoObject;
+ }
+
+ public Models getModels() {
+  return ModelsObject;
+ }
+
+ public Diagrams getDiagrams() {
+  return DiagramsObject;
+ }
+
+ public String get_Author() {
+  return _Author;
+ }
+
+ public String get_CommentTableSortAscending() {
+  return _CommentTableSortAscending;
+ }
+
+ public String get_CommentTableSortColumn() {
+  return _CommentTableSortColumn;
+ }
+
+ public String get_DocumentationType() {
+  return _DocumentationType;
+ }
+
+ public String get_ExportedFromDifferentName() {
+  return _ExportedFromDifferentName;
+ }
+
+ public String get_ExporterVersion() {
+  return _ExporterVersion;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_TextualAnalysisHighlightOptionCaseSensitive() {
+  return _TextualAnalysisHighlightOptionCaseSensitive;
+ }
+
+ public String get_UmlVersion() {
+  return _UmlVersion;
+ }
+
+ public String get_Xml_structure() {
+  return _Xml_structure;
+ }
+
+ // Setter Methods 
+
+ public void setProjectInfo(ProjectInfo ProjectInfoObject) {
+  this.ProjectInfoObject = ProjectInfoObject;
+ }
+
+ public void setModels(Models ModelsObject) {
+  this.ModelsObject = ModelsObject;
+ }
+
+ public void setDiagrams(Diagrams DiagramsObject) {
+  this.DiagramsObject = DiagramsObject;
+ }
+
+ public void set_Author(String _Author) {
+  this._Author = _Author;
+ }
+
+ public void set_CommentTableSortAscending(String _CommentTableSortAscending) {
+  this._CommentTableSortAscending = _CommentTableSortAscending;
+ }
+
+ public void set_CommentTableSortColumn(String _CommentTableSortColumn) {
+  this._CommentTableSortColumn = _CommentTableSortColumn;
+ }
+
+ public void set_DocumentationType(String _DocumentationType) {
+  this._DocumentationType = _DocumentationType;
+ }
+
+ public void set_ExportedFromDifferentName(String _ExportedFromDifferentName) {
+  this._ExportedFromDifferentName = _ExportedFromDifferentName;
+ }
+
+ public void set_ExporterVersion(String _ExporterVersion) {
+  this._ExporterVersion = _ExporterVersion;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_TextualAnalysisHighlightOptionCaseSensitive(String _TextualAnalysisHighlightOptionCaseSensitive) {
+  this._TextualAnalysisHighlightOptionCaseSensitive = _TextualAnalysisHighlightOptionCaseSensitive;
+ }
+
+ public void set_UmlVersion(String _UmlVersion) {
+  this._UmlVersion = _UmlVersion;
+ }
+
+ public void set_Xml_structure(String _Xml_structure) {
+  this._Xml_structure = _Xml_structure;
+ }
+}
+public class Diagrams {
+ ClassDiagram ClassDiagramObject;
+
+
+ // Getter Methods 
+
+ public ClassDiagram getClassDiagram() {
+  return ClassDiagramObject;
+ }
+
+ // Setter Methods 
+
+ public void setClassDiagram(ClassDiagram ClassDiagramObject) {
+  this.ClassDiagramObject = ClassDiagramObject;
+ }
+}
+public class ClassDiagram {
+ Shapes ShapesObject;
+ private String _AlignToGrid;
+ private String _AutoFitShapesSize;
+ private String _ClassFitSizeWhenShowHideMember;
+ private String _ConnectionPointStyle;
+ private String _ConnectorLabelOrientation;
+ private String _ConnectorLineJumps;
+ private String _ConnectorLineJumpsSize;
+ private String _ConnectorModelElementNameAlignment;
+ private String _ConnectorStyle;
+ private String _DiagramBackground;
+ private String _Editable;
+ private String _FollowDiagramParentElement;
+ private String _GeneralizationSetNotation;
+ private String _GridColor;
+ private String _GridHeight;
+ private String _GridVisible;
+ private String _GridWidth;
+ private String _Height;
+ private String _HideConnectorIfFromToIsHidden;
+ private String _HideEmptyTaggedValues;
+ private String _Id;
+ private String _ImageHeight;
+ private String _ImageScale;
+ private String _ImageWidth;
+ private String _InitializeDiagramForCreate;
+ private String _Maximized;
+ private String _ModelElementNameAlignment;
+ private String _Name;
+ private String _PaintConnectorThroughLabel;
+ private String _PmAuthor;
+ private String _PmCreateDateTime;
+ private String _PmLastModified;
+ private String _PointConnectorEndToCompartmentMember;
+ private String _QualityScore;
+ private String _RequestFitSizeWithPromptUser;
+ private String _RequestValidateSnapToGrid;
+ private String _ShapePresentationOption;
+ private String _ShowActivityStateNodeCaption;
+ private String _ShowAllocatedFrom;
+ private String _ShowAllocatedTo;
+ private String _ShowAssociationNavigationArrows;
+ private String _ShowAttributeGetterSetter;
+ private String _ShowAttributesCodeDetails;
+ private String _ShowAttributesPropertyModifiers;
+ private String _ShowAttributesType;
+ private String _ShowClassEmptyCompartments;
+ private String _ShowClassOwner;
+ private String _ShowClassReferencedAttributes;
+ private String _ShowColorLegend;
+ private String _ShowConnectorLegend;
+ private String _ShowConnectorName;
+ private String _ShowConstraints;
+ private String _ShowDefaultPackage;
+ private String _ShowEllipsisForUnshownClassMembers;
+ private String _ShowInformationItemOption;
+ private String _ShowOperationsCodeDetails;
+ private String _ShowOperationsParameters;
+ private String _ShowOperationsReturnType;
+ private String _ShowPMAuthor;
+ private String _ShowPMDifficulty;
+ private String _ShowPMDiscipline;
+ private String _ShowPMIteration;
+ private String _ShowPMPhase;
+ private String _ShowPMPriority;
+ private String _ShowPMStatus;
+ private String _ShowPMVersion;
+ private String _ShowPackageNameStyle;
+ private String _ShowPackageOwner;
+ private String _ShowParametersCodeDetails;
+ private String _ShowShapeLegend;
+ private String _ShowShapeStereotypeIconName;
+ private String _ShowStereotypes;
+ private String _ShowTaggedValues;
+ private String _ShowTemplateInfoOfGeneralizationAndRealization;
+ private String _SuppressImplied1MultiplicityForAttributeAndAssociationEnd;
+ private String _TeamworkCreateDateTime;
+ private String _TrimmedHeight;
+ private String _TrimmedWidth;
+ private String _Width;
+ private String _X;
+ private String _Y;
+ private String _ZoomRatio;
+ private String __globalPaletteOption;
+
+
+ // Getter Methods 
+
+ public Shapes getShapes() {
+  return ShapesObject;
+ }
+
+ public String get_AlignToGrid() {
+  return _AlignToGrid;
+ }
+
+ public String get_AutoFitShapesSize() {
+  return _AutoFitShapesSize;
+ }
+
+ public String get_ClassFitSizeWhenShowHideMember() {
+  return _ClassFitSizeWhenShowHideMember;
+ }
+
+ public String get_ConnectionPointStyle() {
+  return _ConnectionPointStyle;
+ }
+
+ public String get_ConnectorLabelOrientation() {
+  return _ConnectorLabelOrientation;
+ }
+
+ public String get_ConnectorLineJumps() {
+  return _ConnectorLineJumps;
+ }
+
+ public String get_ConnectorLineJumpsSize() {
+  return _ConnectorLineJumpsSize;
+ }
+
+ public String get_ConnectorModelElementNameAlignment() {
+  return _ConnectorModelElementNameAlignment;
+ }
+
+ public String get_ConnectorStyle() {
+  return _ConnectorStyle;
+ }
+
+ public String get_DiagramBackground() {
+  return _DiagramBackground;
+ }
+
+ public String get_Editable() {
+  return _Editable;
+ }
+
+ public String get_FollowDiagramParentElement() {
+  return _FollowDiagramParentElement;
+ }
+
+ public String get_GeneralizationSetNotation() {
+  return _GeneralizationSetNotation;
+ }
+
+ public String get_GridColor() {
+  return _GridColor;
+ }
+
+ public String get_GridHeight() {
+  return _GridHeight;
+ }
+
+ public String get_GridVisible() {
+  return _GridVisible;
+ }
+
+ public String get_GridWidth() {
+  return _GridWidth;
+ }
+
+ public String get_Height() {
+  return _Height;
+ }
+
+ public String get_HideConnectorIfFromToIsHidden() {
+  return _HideConnectorIfFromToIsHidden;
+ }
+
+ public String get_HideEmptyTaggedValues() {
+  return _HideEmptyTaggedValues;
+ }
+
+ public String get_Id() {
+  return _Id;
+ }
+
+ public String get_ImageHeight() {
+  return _ImageHeight;
+ }
+
+ public String get_ImageScale() {
+  return _ImageScale;
+ }
+
+ public String get_ImageWidth() {
+  return _ImageWidth;
+ }
+
+ public String get_InitializeDiagramForCreate() {
+  return _InitializeDiagramForCreate;
+ }
+
+ public String get_Maximized() {
+  return _Maximized;
+ }
+
+ public String get_ModelElementNameAlignment() {
+  return _ModelElementNameAlignment;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_PaintConnectorThroughLabel() {
+  return _PaintConnectorThroughLabel;
+ }
+
+ public String get_PmAuthor() {
+  return _PmAuthor;
+ }
+
+ public String get_PmCreateDateTime() {
+  return _PmCreateDateTime;
+ }
+
+ public String get_PmLastModified() {
+  return _PmLastModified;
+ }
+
+ public String get_PointConnectorEndToCompartmentMember() {
+  return _PointConnectorEndToCompartmentMember;
+ }
+
+ public String get_QualityScore() {
+  return _QualityScore;
+ }
+
+ public String get_RequestFitSizeWithPromptUser() {
+  return _RequestFitSizeWithPromptUser;
+ }
+
+ public String get_RequestValidateSnapToGrid() {
+  return _RequestValidateSnapToGrid;
+ }
+
+ public String get_ShapePresentationOption() {
+  return _ShapePresentationOption;
+ }
+
+ public String get_ShowActivityStateNodeCaption() {
+  return _ShowActivityStateNodeCaption;
+ }
+
+ public String get_ShowAllocatedFrom() {
+  return _ShowAllocatedFrom;
+ }
+
+ public String get_ShowAllocatedTo() {
+  return _ShowAllocatedTo;
+ }
+
+ public String get_ShowAssociationNavigationArrows() {
+  return _ShowAssociationNavigationArrows;
+ }
+
+ public String get_ShowAttributeGetterSetter() {
+  return _ShowAttributeGetterSetter;
+ }
+
+ public String get_ShowAttributesCodeDetails() {
+  return _ShowAttributesCodeDetails;
+ }
+
+ public String get_ShowAttributesPropertyModifiers() {
+  return _ShowAttributesPropertyModifiers;
+ }
+
+ public String get_ShowAttributesType() {
+  return _ShowAttributesType;
+ }
+
+ public String get_ShowClassEmptyCompartments() {
+  return _ShowClassEmptyCompartments;
+ }
+
+ public String get_ShowClassOwner() {
+  return _ShowClassOwner;
+ }
+
+ public String get_ShowClassReferencedAttributes() {
+  return _ShowClassReferencedAttributes;
+ }
+
+ public String get_ShowColorLegend() {
+  return _ShowColorLegend;
+ }
+
+ public String get_ShowConnectorLegend() {
+  return _ShowConnectorLegend;
+ }
+
+ public String get_ShowConnectorName() {
+  return _ShowConnectorName;
+ }
+
+ public String get_ShowConstraints() {
+  return _ShowConstraints;
+ }
+
+ public String get_ShowDefaultPackage() {
+  return _ShowDefaultPackage;
+ }
+
+ public String get_ShowEllipsisForUnshownClassMembers() {
+  return _ShowEllipsisForUnshownClassMembers;
+ }
+
+ public String get_ShowInformationItemOption() {
+  return _ShowInformationItemOption;
+ }
+
+ public String get_ShowOperationsCodeDetails() {
+  return _ShowOperationsCodeDetails;
+ }
+
+ public String get_ShowOperationsParameters() {
+  return _ShowOperationsParameters;
+ }
+
+ public String get_ShowOperationsReturnType() {
+  return _ShowOperationsReturnType;
+ }
+
+ public String get_ShowPMAuthor() {
+  return _ShowPMAuthor;
+ }
+
+ public String get_ShowPMDifficulty() {
+  return _ShowPMDifficulty;
+ }
+
+ public String get_ShowPMDiscipline() {
+  return _ShowPMDiscipline;
+ }
+
+ public String get_ShowPMIteration() {
+  return _ShowPMIteration;
+ }
+
+ public String get_ShowPMPhase() {
+  return _ShowPMPhase;
+ }
+
+ public String get_ShowPMPriority() {
+  return _ShowPMPriority;
+ }
+
+ public String get_ShowPMStatus() {
+  return _ShowPMStatus;
+ }
+
+ public String get_ShowPMVersion() {
+  return _ShowPMVersion;
+ }
+
+ public String get_ShowPackageNameStyle() {
+  return _ShowPackageNameStyle;
+ }
+
+ public String get_ShowPackageOwner() {
+  return _ShowPackageOwner;
+ }
+
+ public String get_ShowParametersCodeDetails() {
+  return _ShowParametersCodeDetails;
+ }
+
+ public String get_ShowShapeLegend() {
+  return _ShowShapeLegend;
+ }
+
+ public String get_ShowShapeStereotypeIconName() {
+  return _ShowShapeStereotypeIconName;
+ }
+
+ public String get_ShowStereotypes() {
+  return _ShowStereotypes;
+ }
+
+ public String get_ShowTaggedValues() {
+  return _ShowTaggedValues;
+ }
+
+ public String get_ShowTemplateInfoOfGeneralizationAndRealization() {
+  return _ShowTemplateInfoOfGeneralizationAndRealization;
+ }
+
+ public String get_SuppressImplied1MultiplicityForAttributeAndAssociationEnd() {
+  return _SuppressImplied1MultiplicityForAttributeAndAssociationEnd;
+ }
+
+ public String get_TeamworkCreateDateTime() {
+  return _TeamworkCreateDateTime;
+ }
+
+ public String get_TrimmedHeight() {
+  return _TrimmedHeight;
+ }
+
+ public String get_TrimmedWidth() {
+  return _TrimmedWidth;
+ }
+
+ public String get_Width() {
+  return _Width;
+ }
+
+ public String get_X() {
+  return _X;
+ }
+
+ public String get_Y() {
+  return _Y;
+ }
+
+ public String get_ZoomRatio() {
+  return _ZoomRatio;
+ }
+
+ public String get__globalPaletteOption() {
+  return __globalPaletteOption;
+ }
+
+ // Setter Methods 
+
+ public void setShapes(Shapes ShapesObject) {
+  this.ShapesObject = ShapesObject;
+ }
+
+ public void set_AlignToGrid(String _AlignToGrid) {
+  this._AlignToGrid = _AlignToGrid;
+ }
+
+ public void set_AutoFitShapesSize(String _AutoFitShapesSize) {
+  this._AutoFitShapesSize = _AutoFitShapesSize;
+ }
+
+ public void set_ClassFitSizeWhenShowHideMember(String _ClassFitSizeWhenShowHideMember) {
+  this._ClassFitSizeWhenShowHideMember = _ClassFitSizeWhenShowHideMember;
+ }
+
+ public void set_ConnectionPointStyle(String _ConnectionPointStyle) {
+  this._ConnectionPointStyle = _ConnectionPointStyle;
+ }
+
+ public void set_ConnectorLabelOrientation(String _ConnectorLabelOrientation) {
+  this._ConnectorLabelOrientation = _ConnectorLabelOrientation;
+ }
+
+ public void set_ConnectorLineJumps(String _ConnectorLineJumps) {
+  this._ConnectorLineJumps = _ConnectorLineJumps;
+ }
+
+ public void set_ConnectorLineJumpsSize(String _ConnectorLineJumpsSize) {
+  this._ConnectorLineJumpsSize = _ConnectorLineJumpsSize;
+ }
+
+ public void set_ConnectorModelElementNameAlignment(String _ConnectorModelElementNameAlignment) {
+  this._ConnectorModelElementNameAlignment = _ConnectorModelElementNameAlignment;
+ }
+
+ public void set_ConnectorStyle(String _ConnectorStyle) {
+  this._ConnectorStyle = _ConnectorStyle;
+ }
+
+ public void set_DiagramBackground(String _DiagramBackground) {
+  this._DiagramBackground = _DiagramBackground;
+ }
+
+ public void set_Editable(String _Editable) {
+  this._Editable = _Editable;
+ }
+
+ public void set_FollowDiagramParentElement(String _FollowDiagramParentElement) {
+  this._FollowDiagramParentElement = _FollowDiagramParentElement;
+ }
+
+ public void set_GeneralizationSetNotation(String _GeneralizationSetNotation) {
+  this._GeneralizationSetNotation = _GeneralizationSetNotation;
+ }
+
+ public void set_GridColor(String _GridColor) {
+  this._GridColor = _GridColor;
+ }
+
+ public void set_GridHeight(String _GridHeight) {
+  this._GridHeight = _GridHeight;
+ }
+
+ public void set_GridVisible(String _GridVisible) {
+  this._GridVisible = _GridVisible;
+ }
+
+ public void set_GridWidth(String _GridWidth) {
+  this._GridWidth = _GridWidth;
+ }
+
+ public void set_Height(String _Height) {
+  this._Height = _Height;
+ }
+
+ public void set_HideConnectorIfFromToIsHidden(String _HideConnectorIfFromToIsHidden) {
+  this._HideConnectorIfFromToIsHidden = _HideConnectorIfFromToIsHidden;
+ }
+
+ public void set_HideEmptyTaggedValues(String _HideEmptyTaggedValues) {
+  this._HideEmptyTaggedValues = _HideEmptyTaggedValues;
+ }
+
+ public void set_Id(String _Id) {
+  this._Id = _Id;
+ }
+
+ public void set_ImageHeight(String _ImageHeight) {
+  this._ImageHeight = _ImageHeight;
+ }
+
+ public void set_ImageScale(String _ImageScale) {
+  this._ImageScale = _ImageScale;
+ }
+
+ public void set_ImageWidth(String _ImageWidth) {
+  this._ImageWidth = _ImageWidth;
+ }
+
+ public void set_InitializeDiagramForCreate(String _InitializeDiagramForCreate) {
+  this._InitializeDiagramForCreate = _InitializeDiagramForCreate;
+ }
+
+ public void set_Maximized(String _Maximized) {
+  this._Maximized = _Maximized;
+ }
+
+ public void set_ModelElementNameAlignment(String _ModelElementNameAlignment) {
+  this._ModelElementNameAlignment = _ModelElementNameAlignment;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_PaintConnectorThroughLabel(String _PaintConnectorThroughLabel) {
+  this._PaintConnectorThroughLabel = _PaintConnectorThroughLabel;
+ }
+
+ public void set_PmAuthor(String _PmAuthor) {
+  this._PmAuthor = _PmAuthor;
+ }
+
+ public void set_PmCreateDateTime(String _PmCreateDateTime) {
+  this._PmCreateDateTime = _PmCreateDateTime;
+ }
+
+ public void set_PmLastModified(String _PmLastModified) {
+  this._PmLastModified = _PmLastModified;
+ }
+
+ public void set_PointConnectorEndToCompartmentMember(String _PointConnectorEndToCompartmentMember) {
+  this._PointConnectorEndToCompartmentMember = _PointConnectorEndToCompartmentMember;
+ }
+
+ public void set_QualityScore(String _QualityScore) {
+  this._QualityScore = _QualityScore;
+ }
+
+ public void set_RequestFitSizeWithPromptUser(String _RequestFitSizeWithPromptUser) {
+  this._RequestFitSizeWithPromptUser = _RequestFitSizeWithPromptUser;
+ }
+
+ public void set_RequestValidateSnapToGrid(String _RequestValidateSnapToGrid) {
+  this._RequestValidateSnapToGrid = _RequestValidateSnapToGrid;
+ }
+
+ public void set_ShapePresentationOption(String _ShapePresentationOption) {
+  this._ShapePresentationOption = _ShapePresentationOption;
+ }
+
+ public void set_ShowActivityStateNodeCaption(String _ShowActivityStateNodeCaption) {
+  this._ShowActivityStateNodeCaption = _ShowActivityStateNodeCaption;
+ }
+
+ public void set_ShowAllocatedFrom(String _ShowAllocatedFrom) {
+  this._ShowAllocatedFrom = _ShowAllocatedFrom;
+ }
+
+ public void set_ShowAllocatedTo(String _ShowAllocatedTo) {
+  this._ShowAllocatedTo = _ShowAllocatedTo;
+ }
+
+ public void set_ShowAssociationNavigationArrows(String _ShowAssociationNavigationArrows) {
+  this._ShowAssociationNavigationArrows = _ShowAssociationNavigationArrows;
+ }
+
+ public void set_ShowAttributeGetterSetter(String _ShowAttributeGetterSetter) {
+  this._ShowAttributeGetterSetter = _ShowAttributeGetterSetter;
+ }
+
+ public void set_ShowAttributesCodeDetails(String _ShowAttributesCodeDetails) {
+  this._ShowAttributesCodeDetails = _ShowAttributesCodeDetails;
+ }
+
+ public void set_ShowAttributesPropertyModifiers(String _ShowAttributesPropertyModifiers) {
+  this._ShowAttributesPropertyModifiers = _ShowAttributesPropertyModifiers;
+ }
+
+ public void set_ShowAttributesType(String _ShowAttributesType) {
+  this._ShowAttributesType = _ShowAttributesType;
+ }
+
+ public void set_ShowClassEmptyCompartments(String _ShowClassEmptyCompartments) {
+  this._ShowClassEmptyCompartments = _ShowClassEmptyCompartments;
+ }
+
+ public void set_ShowClassOwner(String _ShowClassOwner) {
+  this._ShowClassOwner = _ShowClassOwner;
+ }
+
+ public void set_ShowClassReferencedAttributes(String _ShowClassReferencedAttributes) {
+  this._ShowClassReferencedAttributes = _ShowClassReferencedAttributes;
+ }
+
+ public void set_ShowColorLegend(String _ShowColorLegend) {
+  this._ShowColorLegend = _ShowColorLegend;
+ }
+
+ public void set_ShowConnectorLegend(String _ShowConnectorLegend) {
+  this._ShowConnectorLegend = _ShowConnectorLegend;
+ }
+
+ public void set_ShowConnectorName(String _ShowConnectorName) {
+  this._ShowConnectorName = _ShowConnectorName;
+ }
+
+ public void set_ShowConstraints(String _ShowConstraints) {
+  this._ShowConstraints = _ShowConstraints;
+ }
+
+ public void set_ShowDefaultPackage(String _ShowDefaultPackage) {
+  this._ShowDefaultPackage = _ShowDefaultPackage;
+ }
+
+ public void set_ShowEllipsisForUnshownClassMembers(String _ShowEllipsisForUnshownClassMembers) {
+  this._ShowEllipsisForUnshownClassMembers = _ShowEllipsisForUnshownClassMembers;
+ }
+
+ public void set_ShowInformationItemOption(String _ShowInformationItemOption) {
+  this._ShowInformationItemOption = _ShowInformationItemOption;
+ }
+
+ public void set_ShowOperationsCodeDetails(String _ShowOperationsCodeDetails) {
+  this._ShowOperationsCodeDetails = _ShowOperationsCodeDetails;
+ }
+
+ public void set_ShowOperationsParameters(String _ShowOperationsParameters) {
+  this._ShowOperationsParameters = _ShowOperationsParameters;
+ }
+
+ public void set_ShowOperationsReturnType(String _ShowOperationsReturnType) {
+  this._ShowOperationsReturnType = _ShowOperationsReturnType;
+ }
+
+ public void set_ShowPMAuthor(String _ShowPMAuthor) {
+  this._ShowPMAuthor = _ShowPMAuthor;
+ }
+
+ public void set_ShowPMDifficulty(String _ShowPMDifficulty) {
+  this._ShowPMDifficulty = _ShowPMDifficulty;
+ }
+
+ public void set_ShowPMDiscipline(String _ShowPMDiscipline) {
+  this._ShowPMDiscipline = _ShowPMDiscipline;
+ }
+
+ public void set_ShowPMIteration(String _ShowPMIteration) {
+  this._ShowPMIteration = _ShowPMIteration;
+ }
+
+ public void set_ShowPMPhase(String _ShowPMPhase) {
+  this._ShowPMPhase = _ShowPMPhase;
+ }
+
+ public void set_ShowPMPriority(String _ShowPMPriority) {
+  this._ShowPMPriority = _ShowPMPriority;
+ }
+
+ public void set_ShowPMStatus(String _ShowPMStatus) {
+  this._ShowPMStatus = _ShowPMStatus;
+ }
+
+ public void set_ShowPMVersion(String _ShowPMVersion) {
+  this._ShowPMVersion = _ShowPMVersion;
+ }
+
+ public void set_ShowPackageNameStyle(String _ShowPackageNameStyle) {
+  this._ShowPackageNameStyle = _ShowPackageNameStyle;
+ }
+
+ public void set_ShowPackageOwner(String _ShowPackageOwner) {
+  this._ShowPackageOwner = _ShowPackageOwner;
+ }
+
+ public void set_ShowParametersCodeDetails(String _ShowParametersCodeDetails) {
+  this._ShowParametersCodeDetails = _ShowParametersCodeDetails;
+ }
+
+ public void set_ShowShapeLegend(String _ShowShapeLegend) {
+  this._ShowShapeLegend = _ShowShapeLegend;
+ }
+
+ public void set_ShowShapeStereotypeIconName(String _ShowShapeStereotypeIconName) {
+  this._ShowShapeStereotypeIconName = _ShowShapeStereotypeIconName;
+ }
+
+ public void set_ShowStereotypes(String _ShowStereotypes) {
+  this._ShowStereotypes = _ShowStereotypes;
+ }
+
+ public void set_ShowTaggedValues(String _ShowTaggedValues) {
+  this._ShowTaggedValues = _ShowTaggedValues;
+ }
+
+ public void set_ShowTemplateInfoOfGeneralizationAndRealization(String _ShowTemplateInfoOfGeneralizationAndRealization) {
+  this._ShowTemplateInfoOfGeneralizationAndRealization = _ShowTemplateInfoOfGeneralizationAndRealization;
+ }
+
+ public void set_SuppressImplied1MultiplicityForAttributeAndAssociationEnd(String _SuppressImplied1MultiplicityForAttributeAndAssociationEnd) {
+  this._SuppressImplied1MultiplicityForAttributeAndAssociationEnd = _SuppressImplied1MultiplicityForAttributeAndAssociationEnd;
+ }
+
+ public void set_TeamworkCreateDateTime(String _TeamworkCreateDateTime) {
+  this._TeamworkCreateDateTime = _TeamworkCreateDateTime;
+ }
+
+ public void set_TrimmedHeight(String _TrimmedHeight) {
+  this._TrimmedHeight = _TrimmedHeight;
+ }
+
+ public void set_TrimmedWidth(String _TrimmedWidth) {
+  this._TrimmedWidth = _TrimmedWidth;
+ }
+
+ public void set_Width(String _Width) {
+  this._Width = _Width;
+ }
+
+ public void set_X(String _X) {
+  this._X = _X;
+ }
+
+ public void set_Y(String _Y) {
+  this._Y = _Y;
+ }
+
+ public void set_ZoomRatio(String _ZoomRatio) {
+  this._ZoomRatio = _ZoomRatio;
+ }
+
+ public void set__globalPaletteOption(String __globalPaletteOption) {
+  this.__globalPaletteOption = __globalPaletteOption;
+ }
+}
+public class Shapes {
+ Class ClassObject;
+
+
+ // Getter Methods 
+
+ public Class getClass() {
+  return ClassObject;
+ }
+
+ // Setter Methods 
+
+ public void setClass(Class ClassObject) {
+  this.ClassObject = ClassObject;
+ }
+}
+public class Class {
+ ElementFont ElementFontObject;
+ Line LineObject;
+ Caption CaptionObject;
+ FillColor FillColorObject;
+ CompartmentFont CompartmentFontObject;
+ private String _AttributeSortType;
+ private String _Background;
+ private String _ConnectToPoint;
+ private String _ConnectionPointType;
+ private String _CoverConnector;
+ private String _DisplayAsRobustnessAnalysisIcon;
+ private String _EnumerationLiteralSortType;
+ private String _Foreground;
+ private String _Height;
+ private String _Id;
+ private String _InterfaceBall;
+ private String _KShDrOp;
+ private String _KSwCsMbSt;
+ private String _LShCmMl;
+ private String _LshRfAts;
+ private String _MShDrAt;
+ private String _MSwTpPts;
+ private String _MetaModelElement;
+ private String _Model;
+ private String _ModelElementNameAlignment;
+ private String _Name;
+ private String _OperationSortType;
+ private String _OverrideAppearanceWithStereotypeIcon;
+ private String _ParentConnectorDTheta;
+ private String _ParentConnectorHeaderLength;
+ private String _ParentConnectorLineLength;
+ private String _PresentationOption;
+ private String _PrimitiveShapeType;
+ private String _ReceptionSortType;
+ private String _RequestDefaultSize;
+ private String _RequestFitSize;
+ private String _RequestFitSizeFromCenter;
+ private String _RequestResetCaption;
+ private String _RequestResetCaptionFitWidth;
+ private String _RequestResetCaptionSize;
+ private String _RequestSetSizeOption;
+ private String _Selectable;
+ private String _ShowAllocatedFrom;
+ private String _ShowAllocatedTo;
+ private String _ShowAttributeType;
+ private String _ShowAttributesCodeDetails;
+ private String _ShowAttributesPropertyModifiers;
+ private String _ShowAttributesType;
+ private String _ShowClassMemberConstraints;
+ private String _ShowEllipsisForUnshownMembers;
+ private String _ShowEmptyCompartments;
+ private String _ShowEnumerationLiteralType;
+ private String _ShowInitialAttributeValue;
+ private String _ShowOperationParameterDirection;
+ private String _ShowOperationProperties;
+ private String _ShowOperationRaisedExceptions;
+ private String _ShowOperationSignature;
+ private String _ShowOperationTemplateParameters;
+ private String _ShowOperationType;
+ private String _ShowOperationsCodeDetails;
+ private String _ShowOperationsParameters;
+ private String _ShowOperationsReturnType;
+ private String _ShowOwnerOption;
+ private String _ShowParameterNameInOperationSignature;
+ private String _ShowParametersCodeDetails;
+ private String _ShowReceptionType;
+ private String _ShowStereotypeIconName;
+ private String _ShowTypeOption;
+ private String _SuppressImplied1MultiplicityForAttribute;
+ private String _VisibilityStyle;
+ private String _Width;
+ private String _WpMbs;
+ private String _X;
+ private String _Y;
+ private String _ZOrder;
+
+
+ // Getter Methods 
+
+ public ElementFont getElementFont() {
+  return ElementFontObject;
+ }
+
+ public Line getLine() {
+  return LineObject;
+ }
+
+ public Caption getCaption() {
+  return CaptionObject;
+ }
+
+ public FillColor getFillColor() {
+  return FillColorObject;
+ }
+
+ public CompartmentFont getCompartmentFont() {
+  return CompartmentFontObject;
+ }
+
+ public String get_AttributeSortType() {
+  return _AttributeSortType;
+ }
+
+ public String get_Background() {
+  return _Background;
+ }
+
+ public String get_ConnectToPoint() {
+  return _ConnectToPoint;
+ }
+
+ public String get_ConnectionPointType() {
+  return _ConnectionPointType;
+ }
+
+ public String get_CoverConnector() {
+  return _CoverConnector;
+ }
+
+ public String get_DisplayAsRobustnessAnalysisIcon() {
+  return _DisplayAsRobustnessAnalysisIcon;
+ }
+
+ public String get_EnumerationLiteralSortType() {
+  return _EnumerationLiteralSortType;
+ }
+
+ public String get_Foreground() {
+  return _Foreground;
+ }
+
+ public String get_Height() {
+  return _Height;
+ }
+
+ public String get_Id() {
+  return _Id;
+ }
+
+ public String get_InterfaceBall() {
+  return _InterfaceBall;
+ }
+
+ public String get_KShDrOp() {
+  return _KShDrOp;
+ }
+
+ public String get_KSwCsMbSt() {
+  return _KSwCsMbSt;
+ }
+
+ public String get_LShCmMl() {
+  return _LShCmMl;
+ }
+
+ public String get_LshRfAts() {
+  return _LshRfAts;
+ }
+
+ public String get_MShDrAt() {
+  return _MShDrAt;
+ }
+
+ public String get_MSwTpPts() {
+  return _MSwTpPts;
+ }
+
+ public String get_MetaModelElement() {
+  return _MetaModelElement;
+ }
+
+ public String get_Model() {
+  return _Model;
+ }
+
+ public String get_ModelElementNameAlignment() {
+  return _ModelElementNameAlignment;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_OperationSortType() {
+  return _OperationSortType;
+ }
+
+ public String get_OverrideAppearanceWithStereotypeIcon() {
+  return _OverrideAppearanceWithStereotypeIcon;
+ }
+
+ public String get_ParentConnectorDTheta() {
+  return _ParentConnectorDTheta;
+ }
+
+ public String get_ParentConnectorHeaderLength() {
+  return _ParentConnectorHeaderLength;
+ }
+
+ public String get_ParentConnectorLineLength() {
+  return _ParentConnectorLineLength;
+ }
+
+ public String get_PresentationOption() {
+  return _PresentationOption;
+ }
+
+ public String get_PrimitiveShapeType() {
+  return _PrimitiveShapeType;
+ }
+
+ public String get_ReceptionSortType() {
+  return _ReceptionSortType;
+ }
+
+ public String get_RequestDefaultSize() {
+  return _RequestDefaultSize;
+ }
+
+ public String get_RequestFitSize() {
+  return _RequestFitSize;
+ }
+
+ public String get_RequestFitSizeFromCenter() {
+  return _RequestFitSizeFromCenter;
+ }
+
+ public String get_RequestResetCaption() {
+  return _RequestResetCaption;
+ }
+
+ public String get_RequestResetCaptionFitWidth() {
+  return _RequestResetCaptionFitWidth;
+ }
+
+ public String get_RequestResetCaptionSize() {
+  return _RequestResetCaptionSize;
+ }
+
+ public String get_RequestSetSizeOption() {
+  return _RequestSetSizeOption;
+ }
+
+ public String get_Selectable() {
+  return _Selectable;
+ }
+
+ public String get_ShowAllocatedFrom() {
+  return _ShowAllocatedFrom;
+ }
+
+ public String get_ShowAllocatedTo() {
+  return _ShowAllocatedTo;
+ }
+
+ public String get_ShowAttributeType() {
+  return _ShowAttributeType;
+ }
+
+ public String get_ShowAttributesCodeDetails() {
+  return _ShowAttributesCodeDetails;
+ }
+
+ public String get_ShowAttributesPropertyModifiers() {
+  return _ShowAttributesPropertyModifiers;
+ }
+
+ public String get_ShowAttributesType() {
+  return _ShowAttributesType;
+ }
+
+ public String get_ShowClassMemberConstraints() {
+  return _ShowClassMemberConstraints;
+ }
+
+ public String get_ShowEllipsisForUnshownMembers() {
+  return _ShowEllipsisForUnshownMembers;
+ }
+
+ public String get_ShowEmptyCompartments() {
+  return _ShowEmptyCompartments;
+ }
+
+ public String get_ShowEnumerationLiteralType() {
+  return _ShowEnumerationLiteralType;
+ }
+
+ public String get_ShowInitialAttributeValue() {
+  return _ShowInitialAttributeValue;
+ }
+
+ public String get_ShowOperationParameterDirection() {
+  return _ShowOperationParameterDirection;
+ }
+
+ public String get_ShowOperationProperties() {
+  return _ShowOperationProperties;
+ }
+
+ public String get_ShowOperationRaisedExceptions() {
+  return _ShowOperationRaisedExceptions;
+ }
+
+ public String get_ShowOperationSignature() {
+  return _ShowOperationSignature;
+ }
+
+ public String get_ShowOperationTemplateParameters() {
+  return _ShowOperationTemplateParameters;
+ }
+
+ public String get_ShowOperationType() {
+  return _ShowOperationType;
+ }
+
+ public String get_ShowOperationsCodeDetails() {
+  return _ShowOperationsCodeDetails;
+ }
+
+ public String get_ShowOperationsParameters() {
+  return _ShowOperationsParameters;
+ }
+
+ public String get_ShowOperationsReturnType() {
+  return _ShowOperationsReturnType;
+ }
+
+ public String get_ShowOwnerOption() {
+  return _ShowOwnerOption;
+ }
+
+ public String get_ShowParameterNameInOperationSignature() {
+  return _ShowParameterNameInOperationSignature;
+ }
+
+ public String get_ShowParametersCodeDetails() {
+  return _ShowParametersCodeDetails;
+ }
+
+ public String get_ShowReceptionType() {
+  return _ShowReceptionType;
+ }
+
+ public String get_ShowStereotypeIconName() {
+  return _ShowStereotypeIconName;
+ }
+
+ public String get_ShowTypeOption() {
+  return _ShowTypeOption;
+ }
+
+ public String get_SuppressImplied1MultiplicityForAttribute() {
+  return _SuppressImplied1MultiplicityForAttribute;
+ }
+
+ public String get_VisibilityStyle() {
+  return _VisibilityStyle;
+ }
+
+ public String get_Width() {
+  return _Width;
+ }
+
+ public String get_WpMbs() {
+  return _WpMbs;
+ }
+
+ public String get_X() {
+  return _X;
+ }
+
+ public String get_Y() {
+  return _Y;
+ }
+
+ public String get_ZOrder() {
+  return _ZOrder;
+ }
+
+ // Setter Methods 
+
+ public void setElementFont(ElementFont ElementFontObject) {
+  this.ElementFontObject = ElementFontObject;
+ }
+
+ public void setLine(Line LineObject) {
+  this.LineObject = LineObject;
+ }
+
+ public void setCaption(Caption CaptionObject) {
+  this.CaptionObject = CaptionObject;
+ }
+
+ public void setFillColor(FillColor FillColorObject) {
+  this.FillColorObject = FillColorObject;
+ }
+
+ public void setCompartmentFont(CompartmentFont CompartmentFontObject) {
+  this.CompartmentFontObject = CompartmentFontObject;
+ }
+
+ public void set_AttributeSortType(String _AttributeSortType) {
+  this._AttributeSortType = _AttributeSortType;
+ }
+
+ public void set_Background(String _Background) {
+  this._Background = _Background;
+ }
+
+ public void set_ConnectToPoint(String _ConnectToPoint) {
+  this._ConnectToPoint = _ConnectToPoint;
+ }
+
+ public void set_ConnectionPointType(String _ConnectionPointType) {
+  this._ConnectionPointType = _ConnectionPointType;
+ }
+
+ public void set_CoverConnector(String _CoverConnector) {
+  this._CoverConnector = _CoverConnector;
+ }
+
+ public void set_DisplayAsRobustnessAnalysisIcon(String _DisplayAsRobustnessAnalysisIcon) {
+  this._DisplayAsRobustnessAnalysisIcon = _DisplayAsRobustnessAnalysisIcon;
+ }
+
+ public void set_EnumerationLiteralSortType(String _EnumerationLiteralSortType) {
+  this._EnumerationLiteralSortType = _EnumerationLiteralSortType;
+ }
+
+ public void set_Foreground(String _Foreground) {
+  this._Foreground = _Foreground;
+ }
+
+ public void set_Height(String _Height) {
+  this._Height = _Height;
+ }
+
+ public void set_Id(String _Id) {
+  this._Id = _Id;
+ }
+
+ public void set_InterfaceBall(String _InterfaceBall) {
+  this._InterfaceBall = _InterfaceBall;
+ }
+
+ public void set_KShDrOp(String _KShDrOp) {
+  this._KShDrOp = _KShDrOp;
+ }
+
+ public void set_KSwCsMbSt(String _KSwCsMbSt) {
+  this._KSwCsMbSt = _KSwCsMbSt;
+ }
+
+ public void set_LShCmMl(String _LShCmMl) {
+  this._LShCmMl = _LShCmMl;
+ }
+
+ public void set_LshRfAts(String _LshRfAts) {
+  this._LshRfAts = _LshRfAts;
+ }
+
+ public void set_MShDrAt(String _MShDrAt) {
+  this._MShDrAt = _MShDrAt;
+ }
+
+ public void set_MSwTpPts(String _MSwTpPts) {
+  this._MSwTpPts = _MSwTpPts;
+ }
+
+ public void set_MetaModelElement(String _MetaModelElement) {
+  this._MetaModelElement = _MetaModelElement;
+ }
+
+ public void set_Model(String _Model) {
+  this._Model = _Model;
+ }
+
+ public void set_ModelElementNameAlignment(String _ModelElementNameAlignment) {
+  this._ModelElementNameAlignment = _ModelElementNameAlignment;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_OperationSortType(String _OperationSortType) {
+  this._OperationSortType = _OperationSortType;
+ }
+
+ public void set_OverrideAppearanceWithStereotypeIcon(String _OverrideAppearanceWithStereotypeIcon) {
+  this._OverrideAppearanceWithStereotypeIcon = _OverrideAppearanceWithStereotypeIcon;
+ }
+
+ public void set_ParentConnectorDTheta(String _ParentConnectorDTheta) {
+  this._ParentConnectorDTheta = _ParentConnectorDTheta;
+ }
+
+ public void set_ParentConnectorHeaderLength(String _ParentConnectorHeaderLength) {
+  this._ParentConnectorHeaderLength = _ParentConnectorHeaderLength;
+ }
+
+ public void set_ParentConnectorLineLength(String _ParentConnectorLineLength) {
+  this._ParentConnectorLineLength = _ParentConnectorLineLength;
+ }
+
+ public void set_PresentationOption(String _PresentationOption) {
+  this._PresentationOption = _PresentationOption;
+ }
+
+ public void set_PrimitiveShapeType(String _PrimitiveShapeType) {
+  this._PrimitiveShapeType = _PrimitiveShapeType;
+ }
+
+ public void set_ReceptionSortType(String _ReceptionSortType) {
+  this._ReceptionSortType = _ReceptionSortType;
+ }
+
+ public void set_RequestDefaultSize(String _RequestDefaultSize) {
+  this._RequestDefaultSize = _RequestDefaultSize;
+ }
+
+ public void set_RequestFitSize(String _RequestFitSize) {
+  this._RequestFitSize = _RequestFitSize;
+ }
+
+ public void set_RequestFitSizeFromCenter(String _RequestFitSizeFromCenter) {
+  this._RequestFitSizeFromCenter = _RequestFitSizeFromCenter;
+ }
+
+ public void set_RequestResetCaption(String _RequestResetCaption) {
+  this._RequestResetCaption = _RequestResetCaption;
+ }
+
+ public void set_RequestResetCaptionFitWidth(String _RequestResetCaptionFitWidth) {
+  this._RequestResetCaptionFitWidth = _RequestResetCaptionFitWidth;
+ }
+
+ public void set_RequestResetCaptionSize(String _RequestResetCaptionSize) {
+  this._RequestResetCaptionSize = _RequestResetCaptionSize;
+ }
+
+ public void set_RequestSetSizeOption(String _RequestSetSizeOption) {
+  this._RequestSetSizeOption = _RequestSetSizeOption;
+ }
+
+ public void set_Selectable(String _Selectable) {
+  this._Selectable = _Selectable;
+ }
+
+ public void set_ShowAllocatedFrom(String _ShowAllocatedFrom) {
+  this._ShowAllocatedFrom = _ShowAllocatedFrom;
+ }
+
+ public void set_ShowAllocatedTo(String _ShowAllocatedTo) {
+  this._ShowAllocatedTo = _ShowAllocatedTo;
+ }
+
+ public void set_ShowAttributeType(String _ShowAttributeType) {
+  this._ShowAttributeType = _ShowAttributeType;
+ }
+
+ public void set_ShowAttributesCodeDetails(String _ShowAttributesCodeDetails) {
+  this._ShowAttributesCodeDetails = _ShowAttributesCodeDetails;
+ }
+
+ public void set_ShowAttributesPropertyModifiers(String _ShowAttributesPropertyModifiers) {
+  this._ShowAttributesPropertyModifiers = _ShowAttributesPropertyModifiers;
+ }
+
+ public void set_ShowAttributesType(String _ShowAttributesType) {
+  this._ShowAttributesType = _ShowAttributesType;
+ }
+
+ public void set_ShowClassMemberConstraints(String _ShowClassMemberConstraints) {
+  this._ShowClassMemberConstraints = _ShowClassMemberConstraints;
+ }
+
+ public void set_ShowEllipsisForUnshownMembers(String _ShowEllipsisForUnshownMembers) {
+  this._ShowEllipsisForUnshownMembers = _ShowEllipsisForUnshownMembers;
+ }
+
+ public void set_ShowEmptyCompartments(String _ShowEmptyCompartments) {
+  this._ShowEmptyCompartments = _ShowEmptyCompartments;
+ }
+
+ public void set_ShowEnumerationLiteralType(String _ShowEnumerationLiteralType) {
+  this._ShowEnumerationLiteralType = _ShowEnumerationLiteralType;
+ }
+
+ public void set_ShowInitialAttributeValue(String _ShowInitialAttributeValue) {
+  this._ShowInitialAttributeValue = _ShowInitialAttributeValue;
+ }
+
+ public void set_ShowOperationParameterDirection(String _ShowOperationParameterDirection) {
+  this._ShowOperationParameterDirection = _ShowOperationParameterDirection;
+ }
+
+ public void set_ShowOperationProperties(String _ShowOperationProperties) {
+  this._ShowOperationProperties = _ShowOperationProperties;
+ }
+
+ public void set_ShowOperationRaisedExceptions(String _ShowOperationRaisedExceptions) {
+  this._ShowOperationRaisedExceptions = _ShowOperationRaisedExceptions;
+ }
+
+ public void set_ShowOperationSignature(String _ShowOperationSignature) {
+  this._ShowOperationSignature = _ShowOperationSignature;
+ }
+
+ public void set_ShowOperationTemplateParameters(String _ShowOperationTemplateParameters) {
+  this._ShowOperationTemplateParameters = _ShowOperationTemplateParameters;
+ }
+
+ public void set_ShowOperationType(String _ShowOperationType) {
+  this._ShowOperationType = _ShowOperationType;
+ }
+
+ public void set_ShowOperationsCodeDetails(String _ShowOperationsCodeDetails) {
+  this._ShowOperationsCodeDetails = _ShowOperationsCodeDetails;
+ }
+
+ public void set_ShowOperationsParameters(String _ShowOperationsParameters) {
+  this._ShowOperationsParameters = _ShowOperationsParameters;
+ }
+
+ public void set_ShowOperationsReturnType(String _ShowOperationsReturnType) {
+  this._ShowOperationsReturnType = _ShowOperationsReturnType;
+ }
+
+ public void set_ShowOwnerOption(String _ShowOwnerOption) {
+  this._ShowOwnerOption = _ShowOwnerOption;
+ }
+
+ public void set_ShowParameterNameInOperationSignature(String _ShowParameterNameInOperationSignature) {
+  this._ShowParameterNameInOperationSignature = _ShowParameterNameInOperationSignature;
+ }
+
+ public void set_ShowParametersCodeDetails(String _ShowParametersCodeDetails) {
+  this._ShowParametersCodeDetails = _ShowParametersCodeDetails;
+ }
+
+ public void set_ShowReceptionType(String _ShowReceptionType) {
+  this._ShowReceptionType = _ShowReceptionType;
+ }
+
+ public void set_ShowStereotypeIconName(String _ShowStereotypeIconName) {
+  this._ShowStereotypeIconName = _ShowStereotypeIconName;
+ }
+
+ public void set_ShowTypeOption(String _ShowTypeOption) {
+  this._ShowTypeOption = _ShowTypeOption;
+ }
+
+ public void set_SuppressImplied1MultiplicityForAttribute(String _SuppressImplied1MultiplicityForAttribute) {
+  this._SuppressImplied1MultiplicityForAttribute = _SuppressImplied1MultiplicityForAttribute;
+ }
+
+ public void set_VisibilityStyle(String _VisibilityStyle) {
+  this._VisibilityStyle = _VisibilityStyle;
+ }
+
+ public void set_Width(String _Width) {
+  this._Width = _Width;
+ }
+
+ public void set_WpMbs(String _WpMbs) {
+  this._WpMbs = _WpMbs;
+ }
+
+ public void set_X(String _X) {
+  this._X = _X;
+ }
+
+ public void set_Y(String _Y) {
+  this._Y = _Y;
+ }
+
+ public void set_ZOrder(String _ZOrder) {
+  this._ZOrder = _ZOrder;
+ }
+}
+public class CompartmentFont {
+ private String _Value;
+
+
+ // Getter Methods 
+
+ public String get_Value() {
+  return _Value;
+ }
+
+ // Setter Methods 
+
+ public void set_Value(String _Value) {
+  this._Value = _Value;
+ }
+}
+public class FillColor {
+ private String _Color;
+ private String _Style;
+ private String _Transparency;
+ private String _Type;
+
+
+ // Getter Methods 
+
+ public String get_Color() {
+  return _Color;
+ }
+
+ public String get_Style() {
+  return _Style;
+ }
+
+ public String get_Transparency() {
+  return _Transparency;
+ }
+
+ public String get_Type() {
+  return _Type;
+ }
+
+ // Setter Methods 
+
+ public void set_Color(String _Color) {
+  this._Color = _Color;
+ }
+
+ public void set_Style(String _Style) {
+  this._Style = _Style;
+ }
+
+ public void set_Transparency(String _Transparency) {
+  this._Transparency = _Transparency;
+ }
+
+ public void set_Type(String _Type) {
+  this._Type = _Type;
+ }
+}
+public class Caption {
+ private String _Height;
+ private String _InternalHeight;
+ private String _InternalWidth;
+ private String _Side;
+ private String _Visible;
+ private String _Width;
+ private String _X;
+ private String _Y;
+
+
+ // Getter Methods 
+
+ public String get_Height() {
+  return _Height;
+ }
+
+ public String get_InternalHeight() {
+  return _InternalHeight;
+ }
+
+ public String get_InternalWidth() {
+  return _InternalWidth;
+ }
+
+ public String get_Side() {
+  return _Side;
+ }
+
+ public String get_Visible() {
+  return _Visible;
+ }
+
+ public String get_Width() {
+  return _Width;
+ }
+
+ public String get_X() {
+  return _X;
+ }
+
+ public String get_Y() {
+  return _Y;
+ }
+
+ // Setter Methods 
+
+ public void set_Height(String _Height) {
+  this._Height = _Height;
+ }
+
+ public void set_InternalHeight(String _InternalHeight) {
+  this._InternalHeight = _InternalHeight;
+ }
+
+ public void set_InternalWidth(String _InternalWidth) {
+  this._InternalWidth = _InternalWidth;
+ }
+
+ public void set_Side(String _Side) {
+  this._Side = _Side;
+ }
+
+ public void set_Visible(String _Visible) {
+  this._Visible = _Visible;
+ }
+
+ public void set_Width(String _Width) {
+  this._Width = _Width;
+ }
+
+ public void set_X(String _X) {
+  this._X = _X;
+ }
+
+ public void set_Y(String _Y) {
+  this._Y = _Y;
+ }
+}
+public class Line {
+ private String Stroke;
+ private String _Cap;
+ private String _Color;
+ private String _Transparency;
+ private String _Weight;
+
+
+ // Getter Methods 
+
+ public String getStroke() {
+  return Stroke;
+ }
+
+ public String get_Cap() {
+  return _Cap;
+ }
+
+ public String get_Color() {
+  return _Color;
+ }
+
+ public String get_Transparency() {
+  return _Transparency;
+ }
+
+ public String get_Weight() {
+  return _Weight;
+ }
+
+ // Setter Methods 
+
+ public void setStroke(String Stroke) {
+  this.Stroke = Stroke;
+ }
+
+ public void set_Cap(String _Cap) {
+  this._Cap = _Cap;
+ }
+
+ public void set_Color(String _Color) {
+  this._Color = _Color;
+ }
+
+ public void set_Transparency(String _Transparency) {
+  this._Transparency = _Transparency;
+ }
+
+ public void set_Weight(String _Weight) {
+  this._Weight = _Weight;
+ }
+}
+public class ElementFont {
+ private String _Color;
+ private String _Name;
+ private String _Size;
+ private String _Style;
+
+
+ // Getter Methods 
+
+ public String get_Color() {
+  return _Color;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_Size() {
+  return _Size;
+ }
+
+ public String get_Style() {
+  return _Style;
+ }
+
+ // Setter Methods 
+
+ public void set_Color(String _Color) {
+  this._Color = _Color;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_Size(String _Size) {
+  this._Size = _Size;
+ }
+
+ public void set_Style(String _Style) {
+  this._Style = _Style;
+ }
+}
+public class Models {
+ ArrayList < Object > DataType = new ArrayList < Object > ();
+ Class ClassObject;
+
+
+ // Getter Methods 
+
+ public Class getClass() {
+  return ClassObject;
+ }
+
+ // Setter Methods 
+
+ public void setClass(Class ClassObject) {
+  this.ClassObject = ClassObject;
+ }
+}
+public class Class {
+ JavaDetail JavaDetailObject;
+ ModelChildren ModelChildrenObject;
+ ToSimpleRelationships ToSimpleRelationshipsObject;
+ private String _Abstract;
+ private String _Active;
+ private String _BacklogActivityId;
+ private String _BusinessKeyMutable;
+ private String _BusinessModel;
+ private String _ConnectToCodeModel;
+ private String _Documentation;
+ private String _Documentation_plain;
+ private String _Id;
+ private String _Leaf;
+ private String _Name;
+ private String _PmAuthor;
+ private String _PmCreateDateTime;
+ private String _PmLastModified;
+ private String _QualityReason_IsNull;
+ private String _QualityScore;
+ private String _Root;
+ private String _UserIDLastNumericValue;
+ private String _UserID_IsNull;
+ private String _Visibility;
+
+
+ // Getter Methods 
+
+ public JavaDetail getJavaDetail() {
+  return JavaDetailObject;
+ }
+
+ public ModelChildren getModelChildren() {
+  return ModelChildrenObject;
+ }
+
+ public ToSimpleRelationships getToSimpleRelationships() {
+  return ToSimpleRelationshipsObject;
+ }
+
+ public String get_Abstract() {
+  return _Abstract;
+ }
+
+ public String get_Active() {
+  return _Active;
+ }
+
+ public String get_BacklogActivityId() {
+  return _BacklogActivityId;
+ }
+
+ public String get_BusinessKeyMutable() {
+  return _BusinessKeyMutable;
+ }
+
+ public String get_BusinessModel() {
+  return _BusinessModel;
+ }
+
+ public String get_ConnectToCodeModel() {
+  return _ConnectToCodeModel;
+ }
+
+ public String get_Documentation() {
+  return _Documentation;
+ }
+
+ public String get_Documentation_plain() {
+  return _Documentation_plain;
+ }
+
+ public String get_Id() {
+  return _Id;
+ }
+
+ public String get_Leaf() {
+  return _Leaf;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_PmAuthor() {
+  return _PmAuthor;
+ }
+
+ public String get_PmCreateDateTime() {
+  return _PmCreateDateTime;
+ }
+
+ public String get_PmLastModified() {
+  return _PmLastModified;
+ }
+
+ public String get_QualityReason_IsNull() {
+  return _QualityReason_IsNull;
+ }
+
+ public String get_QualityScore() {
+  return _QualityScore;
+ }
+
+ public String get_Root() {
+  return _Root;
+ }
+
+ public String get_UserIDLastNumericValue() {
+  return _UserIDLastNumericValue;
+ }
+
+ public String get_UserID_IsNull() {
+  return _UserID_IsNull;
+ }
+
+ public String get_Visibility() {
+  return _Visibility;
+ }
+
+ // Setter Methods 
+
+ public void setJavaDetail(JavaDetail JavaDetailObject) {
+  this.JavaDetailObject = JavaDetailObject;
+ }
+
+ public void setModelChildren(ModelChildren ModelChildrenObject) {
+  this.ModelChildrenObject = ModelChildrenObject;
+ }
+
+ public void setToSimpleRelationships(ToSimpleRelationships ToSimpleRelationshipsObject) {
+  this.ToSimpleRelationshipsObject = ToSimpleRelationshipsObject;
+ }
+
+ public void set_Abstract(String _Abstract) {
+  this._Abstract = _Abstract;
+ }
+
+ public void set_Active(String _Active) {
+  this._Active = _Active;
+ }
+
+ public void set_BacklogActivityId(String _BacklogActivityId) {
+  this._BacklogActivityId = _BacklogActivityId;
+ }
+
+ public void set_BusinessKeyMutable(String _BusinessKeyMutable) {
+  this._BusinessKeyMutable = _BusinessKeyMutable;
+ }
+
+ public void set_BusinessModel(String _BusinessModel) {
+  this._BusinessModel = _BusinessModel;
+ }
+
+ public void set_ConnectToCodeModel(String _ConnectToCodeModel) {
+  this._ConnectToCodeModel = _ConnectToCodeModel;
+ }
+
+ public void set_Documentation(String _Documentation) {
+  this._Documentation = _Documentation;
+ }
+
+ public void set_Documentation_plain(String _Documentation_plain) {
+  this._Documentation_plain = _Documentation_plain;
+ }
+
+ public void set_Id(String _Id) {
+  this._Id = _Id;
+ }
+
+ public void set_Leaf(String _Leaf) {
+  this._Leaf = _Leaf;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_PmAuthor(String _PmAuthor) {
+  this._PmAuthor = _PmAuthor;
+ }
+
+ public void set_PmCreateDateTime(String _PmCreateDateTime) {
+  this._PmCreateDateTime = _PmCreateDateTime;
+ }
+
+ public void set_PmLastModified(String _PmLastModified) {
+  this._PmLastModified = _PmLastModified;
+ }
+
+ public void set_QualityReason_IsNull(String _QualityReason_IsNull) {
+  this._QualityReason_IsNull = _QualityReason_IsNull;
+ }
+
+ public void set_QualityScore(String _QualityScore) {
+  this._QualityScore = _QualityScore;
+ }
+
+ public void set_Root(String _Root) {
+  this._Root = _Root;
+ }
+
+ public void set_UserIDLastNumericValue(String _UserIDLastNumericValue) {
+  this._UserIDLastNumericValue = _UserIDLastNumericValue;
+ }
+
+ public void set_UserID_IsNull(String _UserID_IsNull) {
+  this._UserID_IsNull = _UserID_IsNull;
+ }
+
+ public void set_Visibility(String _Visibility) {
+  this._Visibility = _Visibility;
+ }
+}
+public class ToSimpleRelationships {
+ Realization RealizationObject;
+
+
+ // Getter Methods 
+
+ public Realization getRealization() {
+  return RealizationObject;
+ }
+
+ // Setter Methods 
+
+ public void setRealization(Realization RealizationObject) {
+  this.RealizationObject = RealizationObject;
+ }
+}
+public class Realization {
+ private String _Idref;
+ private String _Name;
+
+
+ // Getter Methods 
+
+ public String get_Idref() {
+  return _Idref;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ // Setter Methods 
+
+ public void set_Idref(String _Idref) {
+  this._Idref = _Idref;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+}
+public class ModelChildren {
+ ArrayList < Object > Operation = new ArrayList < Object > ();
+ ArrayList < Object > Attribute = new ArrayList < Object > ();
+
+
+ // Getter Methods 
+
+
+
+ // Setter Methods 
+
+
+}
+public class JavaDetail {
+ JavaClassCodeDetail JavaClassCodeDetailObject;
+
+
+ // Getter Methods 
+
+ public JavaClassCodeDetail getJavaClassCodeDetail() {
+  return JavaClassCodeDetailObject;
+ }
+
+ // Setter Methods 
+
+ public void setJavaClassCodeDetail(JavaClassCodeDetail JavaClassCodeDetailObject) {
+  this.JavaClassCodeDetailObject = JavaClassCodeDetailObject;
+ }
+}
+public class JavaClassCodeDetail {
+ private String _Id;
+ private String _JavaFinal;
+ private String _JavaInterface;
+ private String _JavaStatic;
+ private String _Name;
+ private String _NoModelExtendsText;
+ private String _NoModelImplementsText;
+
+
+ // Getter Methods 
+
+ public String get_Id() {
+  return _Id;
+ }
+
+ public String get_JavaFinal() {
+  return _JavaFinal;
+ }
+
+ public String get_JavaInterface() {
+  return _JavaInterface;
+ }
+
+ public String get_JavaStatic() {
+  return _JavaStatic;
+ }
+
+ public String get_Name() {
+  return _Name;
+ }
+
+ public String get_NoModelExtendsText() {
+  return _NoModelExtendsText;
+ }
+
+ public String get_NoModelImplementsText() {
+  return _NoModelImplementsText;
+ }
+
+ // Setter Methods 
+
+ public void set_Id(String _Id) {
+  this._Id = _Id;
+ }
+
+ public void set_JavaFinal(String _JavaFinal) {
+  this._JavaFinal = _JavaFinal;
+ }
+
+ public void set_JavaInterface(String _JavaInterface) {
+  this._JavaInterface = _JavaInterface;
+ }
+
+ public void set_JavaStatic(String _JavaStatic) {
+  this._JavaStatic = _JavaStatic;
+ }
+
+ public void set_Name(String _Name) {
+  this._Name = _Name;
+ }
+
+ public void set_NoModelExtendsText(String _NoModelExtendsText) {
+  this._NoModelExtendsText = _NoModelExtendsText;
+ }
+
+ public void set_NoModelImplementsText(String _NoModelImplementsText) {
+  this._NoModelImplementsText = _NoModelImplementsText;
+ }
+}
+public class ProjectInfo {
+ private String LogicalView;
+ ProjectOptions ProjectOptionsObject;
+
+
+ // Getter Methods 
+
+ public String getLogicalView() {
+  return LogicalView;
+ }
+
+ public ProjectOptions getProjectOptions() {
+  return ProjectOptionsObject;
+ }
+
+ // Setter Methods 
+
+ public void setLogicalView(String LogicalView) {
+  this.LogicalView = LogicalView;
+ }
+
+ public void setProjectOptions(ProjectOptions ProjectOptionsObject) {
+  this.ProjectOptionsObject = ProjectOptionsObject;
+ }
+}
+public class ProjectOptions {
+ DiagramOptions DiagramOptionsObject;
+ GeneralOptions GeneralOptionsObject;
+ InstantReverseOptions InstantReverseOptionsObject;
+ ModelQualityOptions ModelQualityOptionsObject;
+ ORMOptions ORMOptionsObject;
+ RequirementDiagramOptions RequirementDiagramOptionsObject;
+ StateCodeEngineOptions StateCodeEngineOptionsObject;
+ WarningOptions WarningOptionsObject;
+ PORepository PORepositoryObject;
+
+
+ // Getter Methods 
+
+ public DiagramOptions getDiagramOptions() {
+  return DiagramOptionsObject;
+ }
+
+ public GeneralOptions getGeneralOptions() {
+  return GeneralOptionsObject;
+ }
+
+ public InstantReverseOptions getInstantReverseOptions() {
+  return InstantReverseOptionsObject;
+ }
+
+ public ModelQualityOptions getModelQualityOptions() {
+  return ModelQualityOptionsObject;
+ }
+
+ public ORMOptions getORMOptions() {
+  return ORMOptionsObject;
+ }
+
+ public RequirementDiagramOptions getRequirementDiagramOptions() {
+  return RequirementDiagramOptionsObject;
+ }
+
+ public StateCodeEngineOptions getStateCodeEngineOptions() {
+  return StateCodeEngineOptionsObject;
+ }
+
+ public WarningOptions getWarningOptions() {
+  return WarningOptionsObject;
+ }
+
+ public PORepository getPORepository() {
+  return PORepositoryObject;
+ }
+
+ // Setter Methods 
+
+ public void setDiagramOptions(DiagramOptions DiagramOptionsObject) {
+  this.DiagramOptionsObject = DiagramOptionsObject;
+ }
+
+ public void setGeneralOptions(GeneralOptions GeneralOptionsObject) {
+  this.GeneralOptionsObject = GeneralOptionsObject;
+ }
+
+ public void setInstantReverseOptions(InstantReverseOptions InstantReverseOptionsObject) {
+  this.InstantReverseOptionsObject = InstantReverseOptionsObject;
+ }
+
+ public void setModelQualityOptions(ModelQualityOptions ModelQualityOptionsObject) {
+  this.ModelQualityOptionsObject = ModelQualityOptionsObject;
+ }
+
+ public void setORMOptions(ORMOptions ORMOptionsObject) {
+  this.ORMOptionsObject = ORMOptionsObject;
+ }
+
+ public void setRequirementDiagramOptions(RequirementDiagramOptions RequirementDiagramOptionsObject) {
+  this.RequirementDiagramOptionsObject = RequirementDiagramOptionsObject;
+ }
+
+ public void setStateCodeEngineOptions(StateCodeEngineOptions StateCodeEngineOptionsObject) {
+  this.StateCodeEngineOptionsObject = StateCodeEngineOptionsObject;
+ }
+
+ public void setWarningOptions(WarningOptions WarningOptionsObject) {
+  this.WarningOptionsObject = WarningOptionsObject;
+ }
+
+ public void setPORepository(PORepository PORepositoryObject) {
+  this.PORepositoryObject = PORepositoryObject;
+ }
+}
+public class PORepository {
+ POUserIDFormats POUserIDFormatsObject;
+
+
+ // Getter Methods 
+
+ public POUserIDFormats getPOUserIDFormats() {
+  return POUserIDFormatsObject;
+ }
+
+ // Setter Methods 
+
+ public void setPOUserIDFormats(POUserIDFormats POUserIDFormatsObject) {
+  this.POUserIDFormatsObject = POUserIDFormatsObject;
+ }
+}
+public class POUserIDFormats {
+ ArrayList < Object > POUserIDFormat = new ArrayList < Object > ();
+
+
+ // Getter Methods 
+
+
+
+ // Setter Methods 
+
+
+}
+public class WarningOptions {
+ private String _CreateORMClassInDefaultPackage;
+
+
+ // Getter Methods 
+
+ public String get_CreateORMClassInDefaultPackage() {
+  return _CreateORMClassInDefaultPackage;
+ }
+
+ // Setter Methods 
+
+ public void set_CreateORMClassInDefaultPackage(String _CreateORMClassInDefaultPackage) {
+  this._CreateORMClassInDefaultPackage = _CreateORMClassInDefaultPackage;
+ }
+}
+public class StateCodeEngineOptions {
+ private String _AutoCreateInitialStateInStateDiagram;
+ private String _AutoCreateTransitionMethods;
+ private String _DefaultInitialStateLocationX;
+ private String _DefaultInitialStateLocationY;
+ private String _GenerateDebugMessage;
+ private String _GenerateSample;
+ private String _GenerateTryCatch;
+ private String _Language;
+ private String _RegenerateTransitionMethods;
+ private String _SyncTransitionMethods;
+
+
+ // Getter Methods 
+
+ public String get_AutoCreateInitialStateInStateDiagram() {
+  return _AutoCreateInitialStateInStateDiagram;
+ }
+
+ public String get_AutoCreateTransitionMethods() {
+  return _AutoCreateTransitionMethods;
+ }
+
+ public String get_DefaultInitialStateLocationX() {
+  return _DefaultInitialStateLocationX;
+ }
+
+ public String get_DefaultInitialStateLocationY() {
+  return _DefaultInitialStateLocationY;
+ }
+
+ public String get_GenerateDebugMessage() {
+  return _GenerateDebugMessage;
+ }
+
+ public String get_GenerateSample() {
+  return _GenerateSample;
+ }
+
+ public String get_GenerateTryCatch() {
+  return _GenerateTryCatch;
+ }
+
+ public String get_Language() {
+  return _Language;
+ }
+
+ public String get_RegenerateTransitionMethods() {
+  return _RegenerateTransitionMethods;
+ }
+
+ public String get_SyncTransitionMethods() {
+  return _SyncTransitionMethods;
+ }
+
+ // Setter Methods 
+
+ public void set_AutoCreateInitialStateInStateDiagram(String _AutoCreateInitialStateInStateDiagram) {
+  this._AutoCreateInitialStateInStateDiagram = _AutoCreateInitialStateInStateDiagram;
+ }
+
+ public void set_AutoCreateTransitionMethods(String _AutoCreateTransitionMethods) {
+  this._AutoCreateTransitionMethods = _AutoCreateTransitionMethods;
+ }
+
+ public void set_DefaultInitialStateLocationX(String _DefaultInitialStateLocationX) {
+  this._DefaultInitialStateLocationX = _DefaultInitialStateLocationX;
+ }
+
+ public void set_DefaultInitialStateLocationY(String _DefaultInitialStateLocationY) {
+  this._DefaultInitialStateLocationY = _DefaultInitialStateLocationY;
+ }
+
+ public void set_GenerateDebugMessage(String _GenerateDebugMessage) {
+  this._GenerateDebugMessage = _GenerateDebugMessage;
+ }
+
+ public void set_GenerateSample(String _GenerateSample) {
+  this._GenerateSample = _GenerateSample;
+ }
+
+ public void set_GenerateTryCatch(String _GenerateTryCatch) {
+  this._GenerateTryCatch = _GenerateTryCatch;
+ }
+
+ public void set_Language(String _Language) {
+  this._Language = _Language;
+ }
+
+ public void set_RegenerateTransitionMethods(String _RegenerateTransitionMethods) {
+  this._RegenerateTransitionMethods = _RegenerateTransitionMethods;
+ }
+
+ public void set_SyncTransitionMethods(String _SyncTransitionMethods) {
+  this._SyncTransitionMethods = _SyncTransitionMethods;
+ }
+}
+public class RequirementDiagramOptions {
+ private String _DefaultWrapMember;
+ private String _ShowAttributes;
+ private String _SupportHTMLAttribute;
+
+
+ // Getter Methods 
+
+ public String get_DefaultWrapMember() {
+  return _DefaultWrapMember;
+ }
+
+ public String get_ShowAttributes() {
+  return _ShowAttributes;
+ }
+
+ public String get_SupportHTMLAttribute() {
+  return _SupportHTMLAttribute;
+ }
+
+ // Setter Methods 
+
+ public void set_DefaultWrapMember(String _DefaultWrapMember) {
+  this._DefaultWrapMember = _DefaultWrapMember;
+ }
+
+ public void set_ShowAttributes(String _ShowAttributes) {
+  this._ShowAttributes = _ShowAttributes;
+ }
+
+ public void set_SupportHTMLAttribute(String _SupportHTMLAttribute) {
+  this._SupportHTMLAttribute = _SupportHTMLAttribute;
+ }
+}
+public class ORMOptions {
+ private String _DecimalPrecision;
+ private String _DecimalScale;
+ private String _ExportCommentToDatabase;
+ private String _FormattedSQL;
+ private String _GenerateAssociationWithAttribute;
+ private String _GenerateDiagramFromORMWizards;
+ private String _GetterSetterVisibility;
+ private String _IdGeneratorType;
+ private String _MappingFileColumnOrder;
+ private String _NumericToClassType;
+ private String _QuoteSQLIdentifier;
+ private String _RecreateShapeWhenSync;
+ private String _SyncToClassDiagramAttributeName;
+ private String _SyncToClassDiagramAttributeNamePrefix;
+ private String _SyncToClassDiagramAttributeNameSuffix;
+ private String _SyncToClassDiagramClassName;
+ private String _SyncToClassDiagramClassNamePrefix;
+ private String _SyncToClassDiagramClassNameSuffix;
+ private String _SyncToERDColumnName;
+ private String _SyncToERDColumnNamePrefix;
+ private String _SyncToERDColumnNameSuffix;
+ private String _SyncToERDTableName;
+ private String _SyncToERDTableNamePrefix;
+ private String _SyncToERDTableNameSuffix;
+ private String _SynchronizeDefaultValueToColumn;
+ private String _SynchronizeName;
+ private String _TablePerSubclassFKMapping;
+ private String _UpperCaseSQL;
+ private String _UseDefaultDecimal;
+ private String _WrappingServletRequest;
+
+
+ // Getter Methods 
+
+ public String get_DecimalPrecision() {
+  return _DecimalPrecision;
+ }
+
+ public String get_DecimalScale() {
+  return _DecimalScale;
+ }
+
+ public String get_ExportCommentToDatabase() {
+  return _ExportCommentToDatabase;
+ }
+
+ public String get_FormattedSQL() {
+  return _FormattedSQL;
+ }
+
+ public String get_GenerateAssociationWithAttribute() {
+  return _GenerateAssociationWithAttribute;
+ }
+
+ public String get_GenerateDiagramFromORMWizards() {
+  return _GenerateDiagramFromORMWizards;
+ }
+
+ public String get_GetterSetterVisibility() {
+  return _GetterSetterVisibility;
+ }
+
+ public String get_IdGeneratorType() {
+  return _IdGeneratorType;
+ }
+
+ public String get_MappingFileColumnOrder() {
+  return _MappingFileColumnOrder;
+ }
+
+ public String get_NumericToClassType() {
+  return _NumericToClassType;
+ }
+
+ public String get_QuoteSQLIdentifier() {
+  return _QuoteSQLIdentifier;
+ }
+
+ public String get_RecreateShapeWhenSync() {
+  return _RecreateShapeWhenSync;
+ }
+
+ public String get_SyncToClassDiagramAttributeName() {
+  return _SyncToClassDiagramAttributeName;
+ }
+
+ public String get_SyncToClassDiagramAttributeNamePrefix() {
+  return _SyncToClassDiagramAttributeNamePrefix;
+ }
+
+ public String get_SyncToClassDiagramAttributeNameSuffix() {
+  return _SyncToClassDiagramAttributeNameSuffix;
+ }
+
+ public String get_SyncToClassDiagramClassName() {
+  return _SyncToClassDiagramClassName;
+ }
+
+ public String get_SyncToClassDiagramClassNamePrefix() {
+  return _SyncToClassDiagramClassNamePrefix;
+ }
+
+ public String get_SyncToClassDiagramClassNameSuffix() {
+  return _SyncToClassDiagramClassNameSuffix;
+ }
+
+ public String get_SyncToERDColumnName() {
+  return _SyncToERDColumnName;
+ }
+
+ public String get_SyncToERDColumnNamePrefix() {
+  return _SyncToERDColumnNamePrefix;
+ }
+
+ public String get_SyncToERDColumnNameSuffix() {
+  return _SyncToERDColumnNameSuffix;
+ }
+
+ public String get_SyncToERDTableName() {
+  return _SyncToERDTableName;
+ }
+
+ public String get_SyncToERDTableNamePrefix() {
+  return _SyncToERDTableNamePrefix;
+ }
+
+ public String get_SyncToERDTableNameSuffix() {
+  return _SyncToERDTableNameSuffix;
+ }
+
+ public String get_SynchronizeDefaultValueToColumn() {
+  return _SynchronizeDefaultValueToColumn;
+ }
+
+ public String get_SynchronizeName() {
+  return _SynchronizeName;
+ }
+
+ public String get_TablePerSubclassFKMapping() {
+  return _TablePerSubclassFKMapping;
+ }
+
+ public String get_UpperCaseSQL() {
+  return _UpperCaseSQL;
+ }
+
+ public String get_UseDefaultDecimal() {
+  return _UseDefaultDecimal;
+ }
+
+ public String get_WrappingServletRequest() {
+  return _WrappingServletRequest;
+ }
+
+ // Setter Methods 
+
+ public void set_DecimalPrecision(String _DecimalPrecision) {
+  this._DecimalPrecision = _DecimalPrecision;
+ }
+
+ public void set_DecimalScale(String _DecimalScale) {
+  this._DecimalScale = _DecimalScale;
+ }
+
+ public void set_ExportCommentToDatabase(String _ExportCommentToDatabase) {
+  this._ExportCommentToDatabase = _ExportCommentToDatabase;
+ }
+
+ public void set_FormattedSQL(String _FormattedSQL) {
+  this._FormattedSQL = _FormattedSQL;
+ }
+
+ public void set_GenerateAssociationWithAttribute(String _GenerateAssociationWithAttribute) {
+  this._GenerateAssociationWithAttribute = _GenerateAssociationWithAttribute;
+ }
+
+ public void set_GenerateDiagramFromORMWizards(String _GenerateDiagramFromORMWizards) {
+  this._GenerateDiagramFromORMWizards = _GenerateDiagramFromORMWizards;
+ }
+
+ public void set_GetterSetterVisibility(String _GetterSetterVisibility) {
+  this._GetterSetterVisibility = _GetterSetterVisibility;
+ }
+
+ public void set_IdGeneratorType(String _IdGeneratorType) {
+  this._IdGeneratorType = _IdGeneratorType;
+ }
+
+ public void set_MappingFileColumnOrder(String _MappingFileColumnOrder) {
+  this._MappingFileColumnOrder = _MappingFileColumnOrder;
+ }
+
+ public void set_NumericToClassType(String _NumericToClassType) {
+  this._NumericToClassType = _NumericToClassType;
+ }
+
+ public void set_QuoteSQLIdentifier(String _QuoteSQLIdentifier) {
+  this._QuoteSQLIdentifier = _QuoteSQLIdentifier;
+ }
+
+ public void set_RecreateShapeWhenSync(String _RecreateShapeWhenSync) {
+  this._RecreateShapeWhenSync = _RecreateShapeWhenSync;
+ }
+
+ public void set_SyncToClassDiagramAttributeName(String _SyncToClassDiagramAttributeName) {
+  this._SyncToClassDiagramAttributeName = _SyncToClassDiagramAttributeName;
+ }
+
+ public void set_SyncToClassDiagramAttributeNamePrefix(String _SyncToClassDiagramAttributeNamePrefix) {
+  this._SyncToClassDiagramAttributeNamePrefix = _SyncToClassDiagramAttributeNamePrefix;
+ }
+
+ public void set_SyncToClassDiagramAttributeNameSuffix(String _SyncToClassDiagramAttributeNameSuffix) {
+  this._SyncToClassDiagramAttributeNameSuffix = _SyncToClassDiagramAttributeNameSuffix;
+ }
+
+ public void set_SyncToClassDiagramClassName(String _SyncToClassDiagramClassName) {
+  this._SyncToClassDiagramClassName = _SyncToClassDiagramClassName;
+ }
+
+ public void set_SyncToClassDiagramClassNamePrefix(String _SyncToClassDiagramClassNamePrefix) {
+  this._SyncToClassDiagramClassNamePrefix = _SyncToClassDiagramClassNamePrefix;
+ }
+
+ public void set_SyncToClassDiagramClassNameSuffix(String _SyncToClassDiagramClassNameSuffix) {
+  this._SyncToClassDiagramClassNameSuffix = _SyncToClassDiagramClassNameSuffix;
+ }
+
+ public void set_SyncToERDColumnName(String _SyncToERDColumnName) {
+  this._SyncToERDColumnName = _SyncToERDColumnName;
+ }
+
+ public void set_SyncToERDColumnNamePrefix(String _SyncToERDColumnNamePrefix) {
+  this._SyncToERDColumnNamePrefix = _SyncToERDColumnNamePrefix;
+ }
+
+ public void set_SyncToERDColumnNameSuffix(String _SyncToERDColumnNameSuffix) {
+  this._SyncToERDColumnNameSuffix = _SyncToERDColumnNameSuffix;
+ }
+
+ public void set_SyncToERDTableName(String _SyncToERDTableName) {
+  this._SyncToERDTableName = _SyncToERDTableName;
+ }
+
+ public void set_SyncToERDTableNamePrefix(String _SyncToERDTableNamePrefix) {
+  this._SyncToERDTableNamePrefix = _SyncToERDTableNamePrefix;
+ }
+
+ public void set_SyncToERDTableNameSuffix(String _SyncToERDTableNameSuffix) {
+  this._SyncToERDTableNameSuffix = _SyncToERDTableNameSuffix;
+ }
+
+ public void set_SynchronizeDefaultValueToColumn(String _SynchronizeDefaultValueToColumn) {
+  this._SynchronizeDefaultValueToColumn = _SynchronizeDefaultValueToColumn;
+ }
+
+ public void set_SynchronizeName(String _SynchronizeName) {
+  this._SynchronizeName = _SynchronizeName;
+ }
+
+ public void set_TablePerSubclassFKMapping(String _TablePerSubclassFKMapping) {
+  this._TablePerSubclassFKMapping = _TablePerSubclassFKMapping;
+ }
+
+ public void set_UpperCaseSQL(String _UpperCaseSQL) {
+  this._UpperCaseSQL = _UpperCaseSQL;
+ }
+
+ public void set_UseDefaultDecimal(String _UseDefaultDecimal) {
+  this._UseDefaultDecimal = _UseDefaultDecimal;
+ }
+
+ public void set_WrappingServletRequest(String _WrappingServletRequest) {
+  this._WrappingServletRequest = _WrappingServletRequest;
+ }
+}
+public class ModelQualityOptions {
+ private String _EnableModelQualityChecking;
+
+
+ // Getter Methods 
+
+ public String get_EnableModelQualityChecking() {
+  return _EnableModelQualityChecking;
+ }
+
+ // Setter Methods 
+
+ public void set_EnableModelQualityChecking(String _EnableModelQualityChecking) {
+  this._EnableModelQualityChecking = _EnableModelQualityChecking;
+ }
+}
+public class InstantReverseOptions {
+ private String _CalculateGeneralizationAndRealization;
+ private String _CreateShapeForParentModelOfDraggedClassPackage;
+ private String _ReverseGetterSetter;
+ private String _ReverseOperationImplementation;
+ private String _ShowPackageForNewDiagram;
+ private String _ShowPackageOwner;
+
+
+ // Getter Methods 
+
+ public String get_CalculateGeneralizationAndRealization() {
+  return _CalculateGeneralizationAndRealization;
+ }
+
+ public String get_CreateShapeForParentModelOfDraggedClassPackage() {
+  return _CreateShapeForParentModelOfDraggedClassPackage;
+ }
+
+ public String get_ReverseGetterSetter() {
+  return _ReverseGetterSetter;
+ }
+
+ public String get_ReverseOperationImplementation() {
+  return _ReverseOperationImplementation;
+ }
+
+ public String get_ShowPackageForNewDiagram() {
+  return _ShowPackageForNewDiagram;
+ }
+
+ public String get_ShowPackageOwner() {
+  return _ShowPackageOwner;
+ }
+
+ // Setter Methods 
+
+ public void set_CalculateGeneralizationAndRealization(String _CalculateGeneralizationAndRealization) {
+  this._CalculateGeneralizationAndRealization = _CalculateGeneralizationAndRealization;
+ }
+
+ public void set_CreateShapeForParentModelOfDraggedClassPackage(String _CreateShapeForParentModelOfDraggedClassPackage) {
+  this._CreateShapeForParentModelOfDraggedClassPackage = _CreateShapeForParentModelOfDraggedClassPackage;
+ }
+
+ public void set_ReverseGetterSetter(String _ReverseGetterSetter) {
+  this._ReverseGetterSetter = _ReverseGetterSetter;
+ }
+
+ public void set_ReverseOperationImplementation(String _ReverseOperationImplementation) {
+  this._ReverseOperationImplementation = _ReverseOperationImplementation;
+ }
+
+ public void set_ShowPackageForNewDiagram(String _ShowPackageForNewDiagram) {
+  this._ShowPackageForNewDiagram = _ShowPackageForNewDiagram;
+ }
+
+ public void set_ShowPackageOwner(String _ShowPackageOwner) {
+  this._ShowPackageOwner = _ShowPackageOwner;
+ }
+}
+public class GeneralOptions {
+ private String _ConfirmSubLevelIdWithDot;
+ private String _QuickAddGlossaryTermParentModelId;
+
+
+ // Getter Methods 
+
+ public String get_ConfirmSubLevelIdWithDot() {
+  return _ConfirmSubLevelIdWithDot;
+ }
+
+ public String get_QuickAddGlossaryTermParentModelId() {
+  return _QuickAddGlossaryTermParentModelId;
+ }
+
+ // Setter Methods 
+
+ public void set_ConfirmSubLevelIdWithDot(String _ConfirmSubLevelIdWithDot) {
+  this._ConfirmSubLevelIdWithDot = _ConfirmSubLevelIdWithDot;
+ }
+
+ public void set_QuickAddGlossaryTermParentModelId(String _QuickAddGlossaryTermParentModelId) {
+  this._QuickAddGlossaryTermParentModelId = _QuickAddGlossaryTermParentModelId;
+ }
+}
+public class DiagramOptions {
+ DefaultHtmlDocFont DefaultHtmlDocFontObject;
+ private String _ActivityDiagramControlFlowDisplayOption;
+ private String _ActivityDiagramShowActionCallBehaviorOption;
+ private String _ActivityDiagramShowActivityEdgeWeight;
+ private String _ActivityDiagramShowObjectNodeType;
+ private String _ActivityDiagramShowPartitionHandle;
+ private String _AddDataStoresExtEntitiesToDecomposedDFD;
+ private String _AlignColumnProperties;
+ private String _AllowConfigShowInOutFlowButtonsInDataFlowDiagram;
+ private String _AutoGenerateRoleName;
+ private String _AutoSetAttributeType;
+ private String _AutoSetColumnType;
+ private String _AutoSyncRoleName;
+ private String _BpPoolLaneDefaultOrientation;
+ private String _BpdAutoStretchPools;
+ private String _BpdConnectGatewayWithFlowObjectInDifferentPool;
+ private String _BpdDefaultConnectionPointStyle;
+ private String _BpdDefaultConnectorStyle;
+ private String _BpdDhowIdOption;
+ private String _BpdShowActivitiesTypeIcon;
+ private String _BusinessProcessDiagramDefaultLanguage;
+ private String _ClassVisibilityStyle;
+ private String _ConnectorLabelOrientation;
+ private String _CreateOneMessagePerDirection;
+ private String _DecisionMergeNodeConnectionPointStyle;
+ private String _DefaultAssociationEndNavigable;
+ private String _DefaultAssociationEndVisibility;
+ private String _DefaultAssociationShowFromMultiplicity;
+ private String _DefaultAssociationShowFromRoleName;
+ private String _DefaultAssociationShowFromRoleVisibility;
+ private String _DefaultAssociationShowStereotypes;
+ private String _DefaultAssociationShowToMultiplicity;
+ private String _DefaultAssociationShowToRoleName;
+ private String _DefaultAssociationShowToRoleVisibility;
+ private String _DefaultAttributeMultiplicity;
+ private String _DefaultAttributeType;
+ private String _DefaultAttributeVisibility;
+ private String _DefaultClassAttributeMultiplicity;
+ private String _DefaultClassAttributeMultiplicityOrdered;
+ private String _DefaultClassAttributeMultiplicityUnique;
+ private String _DefaultClassInterfaceBall;
+ private String _DefaultClassVisibility;
+ private String _DefaultColumnType;
+ private String _DefaultConnectionPointStyle;
+ private String _DefaultConnectorStyle;
+ private String _DefaultDiagramBackground;
+ private String _DefaultDisplayAsRobustnessAnalysisIcon;
+ private String _DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram;
+ private String _DefaultDisplayAsStereotypeIcon;
+ private String _DefaultFontColor;
+ private String _DefaultGenDiagramTypeFromScenario;
+ private String _DefaultHtmlDocFontColor;
+ private String _DefaultLineJumps;
+ private String _DefaultOperationVisibility;
+ private String _DefaultParameterDirection;
+ private String _DefaultShowAttributeInitialValue;
+ private String _DefaultShowAttributeOption;
+ private String _DefaultShowClassMemberStereotype;
+ private String _DefaultShowDirection;
+ private String _DefaultShowMultiplicityConstraints;
+ private String _DefaultShowOperationOption;
+ private String _DefaultShowOperationSignature;
+ private String _DefaultShowOrderedMultiplicityConstraint;
+ private String _DefaultShowOwnedAssociationEndAsAttribute;
+ private String _DefaultShowOwner;
+ private String _DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature;
+ private String _DefaultShowReceptionOption;
+ private String _DefaultShowTemplateParameter;
+ private String _DefaultShowTypeOption;
+ private String _DefaultShowUniqueMultiplicityConstraint;
+ private String _DefaultTypeOfSubProcess;
+ private String _DefaultWrapClassMember;
+ private String _DrawTextAnnotationOpenRectangleFollowConnectorEnd;
+ private String _EnableMinimumSize;
+ private String _EntityColumnConstraintsPresentation;
+ private String _ErdIndexNumOfDigits;
+ private String _ErdIndexPattern;
+ private String _ErdIndexPatternSyncAutomatically;
+ private String _ErdManyToManyJoinTableDelimiter;
+ private String _EtlTableDiagramFontSize;
+ private String _ExpandedSubProcessDiagramContent;
+ private String _ForeignKeyArrowHeadSize;
+ private String _ForeignKeyConnectorEndPointAssociatedColumn;
+ private String _ForeignKeyNamePattern;
+ private String _ForeignKeyNamePatternCaseHandling;
+ private String _ForeignKeyRelationshipPattern;
+ private String _FractionalMetrics;
+ private String _GeneralizationSetNotation;
+ private String _GraphicAntiAliasing;
+ private String _GridDiagramFontSize;
+ private String _LineJumpSize;
+ private String _ModelElementNameAlignment;
+ private String _MultipleLineClassName;
+ private String _PaintConnectorThroughLabel;
+ private String _PointConnectorEndToCompartmentMember;
+ private String _PrimaryKeyConstraintPattern;
+ private String _PrimaryKeyNamePattern;
+ private String _RenameConstructorAfterRenameClass;
+ private String _RenameExtensionPointToFollowExtendUseCase;
+ private String _ShapeAutoFitSize;
+ private String _ShowActivationsInSequenceDiagram;
+ private String _ShowActivityStateNodeCaption;
+ private String _ShowArtifactOption;
+ private String _ShowAssociatedDiagramNameOfInteraction;
+ private String _ShowAssociationRoleStereotypes;
+ private String _ShowAttributeGetterSetter;
+ private String _ShowBSElementCode;
+ private String _ShowClassEmptyCompartments;
+ private String _ShowColumnDefaultValue;
+ private String _ShowColumnNullable;
+ private String _ShowColumnType;
+ private String _ShowColumnUniqueConstraintName;
+ private String _ShowColumnUserType;
+ private String _ShowComponentOption;
+ private String _ShowExtraColumnProperties;
+ private String _ShowInOutFlowButtonsInDataFlowDiagram;
+ private String _ShowInOutFlowsInSubLevelDiagram;
+ private String _ShowMessageOperationSignatureForSequenceAndCommunicationDiagram;
+ private String _ShowMessageStereotypeInSequenceAndCommunicationDiagram;
+ private String _ShowNumberInCollaborationDiagram;
+ private String _ShowNumberInSequenceDiagram;
+ private String _ShowPackageNameStyle;
+ private String _ShowParameterNameInOperationSignature;
+ private String _ShowRowGridLineWithinCompClassDiagram;
+ private String _ShowRowGridLineWithinCompERD;
+ private String _ShowRowGridLineWithinORMDiagram;
+ private String _ShowSchemaNameInERD;
+ private String _ShowTransitionTrigger;
+ private String _ShowUseCaseExtensionPoint;
+ private String _ShowUseCaseID;
+ private String _SnapConnectorsAfterZoom;
+ private String _StateShowParametersOfInternalActivities;
+ private String _StateShowPrePostConditionAndBodyOfInternalActivities;
+ private String _StopTargetLifelineOnCreateDestroyMessage;
+ private String _SupportHtmlTaggedValue;
+ private String _SupportMultipleLineAttribute;
+ private String _SuppressImpliedMultiplicityForAttributeAssociationEnd;
+ private String _SyncAssociationNameWithAssociationClass;
+ private String _SyncAssociationRoleNameWithReferencedAttributeName;
+ private String _SyncDocOfInterfaceToSubClass;
+ private String _TextAntiAliasing;
+ private String _TextualAnalysisGenerateRequirementTextOption;
+ private String _TextualAnalysisHighlightOption;
+ private String _UnnamedIndexPattern;
+ private String _UseStateNameTab;
+ private String _WireflowDiagramDevice;
+ private String _WireflowDiagramShowActiveFlowLabel;
+ private String _WireflowDiagramTheme;
+ private String _WireflowDiagramWireflowShowPreview;
+ private String _WireflowDiagramWireflowShowScreenId;
+
+
+ // Getter Methods 
+
+ public DefaultHtmlDocFont getDefaultHtmlDocFont() {
+  return DefaultHtmlDocFontObject;
+ }
+
+ public String get_ActivityDiagramControlFlowDisplayOption() {
+  return _ActivityDiagramControlFlowDisplayOption;
+ }
+
+ public String get_ActivityDiagramShowActionCallBehaviorOption() {
+  return _ActivityDiagramShowActionCallBehaviorOption;
+ }
+
+ public String get_ActivityDiagramShowActivityEdgeWeight() {
+  return _ActivityDiagramShowActivityEdgeWeight;
+ }
+
+ public String get_ActivityDiagramShowObjectNodeType() {
+  return _ActivityDiagramShowObjectNodeType;
+ }
+
+ public String get_ActivityDiagramShowPartitionHandle() {
+  return _ActivityDiagramShowPartitionHandle;
+ }
+
+ public String get_AddDataStoresExtEntitiesToDecomposedDFD() {
+  return _AddDataStoresExtEntitiesToDecomposedDFD;
+ }
+
+ public String get_AlignColumnProperties() {
+  return _AlignColumnProperties;
+ }
+
+ public String get_AllowConfigShowInOutFlowButtonsInDataFlowDiagram() {
+  return _AllowConfigShowInOutFlowButtonsInDataFlowDiagram;
+ }
+
+ public String get_AutoGenerateRoleName() {
+  return _AutoGenerateRoleName;
+ }
+
+ public String get_AutoSetAttributeType() {
+  return _AutoSetAttributeType;
+ }
+
+ public String get_AutoSetColumnType() {
+  return _AutoSetColumnType;
+ }
+
+ public String get_AutoSyncRoleName() {
+  return _AutoSyncRoleName;
+ }
+
+ public String get_BpPoolLaneDefaultOrientation() {
+  return _BpPoolLaneDefaultOrientation;
+ }
+
+ public String get_BpdAutoStretchPools() {
+  return _BpdAutoStretchPools;
+ }
+
+ public String get_BpdConnectGatewayWithFlowObjectInDifferentPool() {
+  return _BpdConnectGatewayWithFlowObjectInDifferentPool;
+ }
+
+ public String get_BpdDefaultConnectionPointStyle() {
+  return _BpdDefaultConnectionPointStyle;
+ }
+
+ public String get_BpdDefaultConnectorStyle() {
+  return _BpdDefaultConnectorStyle;
+ }
+
+ public String get_BpdDhowIdOption() {
+  return _BpdDhowIdOption;
+ }
+
+ public String get_BpdShowActivitiesTypeIcon() {
+  return _BpdShowActivitiesTypeIcon;
+ }
+
+ public String get_BusinessProcessDiagramDefaultLanguage() {
+  return _BusinessProcessDiagramDefaultLanguage;
+ }
+
+ public String get_ClassVisibilityStyle() {
+  return _ClassVisibilityStyle;
+ }
+
+ public String get_ConnectorLabelOrientation() {
+  return _ConnectorLabelOrientation;
+ }
+
+ public String get_CreateOneMessagePerDirection() {
+  return _CreateOneMessagePerDirection;
+ }
+
+ public String get_DecisionMergeNodeConnectionPointStyle() {
+  return _DecisionMergeNodeConnectionPointStyle;
+ }
+
+ public String get_DefaultAssociationEndNavigable() {
+  return _DefaultAssociationEndNavigable;
+ }
+
+ public String get_DefaultAssociationEndVisibility() {
+  return _DefaultAssociationEndVisibility;
+ }
+
+ public String get_DefaultAssociationShowFromMultiplicity() {
+  return _DefaultAssociationShowFromMultiplicity;
+ }
+
+ public String get_DefaultAssociationShowFromRoleName() {
+  return _DefaultAssociationShowFromRoleName;
+ }
+
+ public String get_DefaultAssociationShowFromRoleVisibility() {
+  return _DefaultAssociationShowFromRoleVisibility;
+ }
+
+ public String get_DefaultAssociationShowStereotypes() {
+  return _DefaultAssociationShowStereotypes;
+ }
+
+ public String get_DefaultAssociationShowToMultiplicity() {
+  return _DefaultAssociationShowToMultiplicity;
+ }
+
+ public String get_DefaultAssociationShowToRoleName() {
+  return _DefaultAssociationShowToRoleName;
+ }
+
+ public String get_DefaultAssociationShowToRoleVisibility() {
+  return _DefaultAssociationShowToRoleVisibility;
+ }
+
+ public String get_DefaultAttributeMultiplicity() {
+  return _DefaultAttributeMultiplicity;
+ }
+
+ public String get_DefaultAttributeType() {
+  return _DefaultAttributeType;
+ }
+
+ public String get_DefaultAttributeVisibility() {
+  return _DefaultAttributeVisibility;
+ }
+
+ public String get_DefaultClassAttributeMultiplicity() {
+  return _DefaultClassAttributeMultiplicity;
+ }
+
+ public String get_DefaultClassAttributeMultiplicityOrdered() {
+  return _DefaultClassAttributeMultiplicityOrdered;
+ }
+
+ public String get_DefaultClassAttributeMultiplicityUnique() {
+  return _DefaultClassAttributeMultiplicityUnique;
+ }
+
+ public String get_DefaultClassInterfaceBall() {
+  return _DefaultClassInterfaceBall;
+ }
+
+ public String get_DefaultClassVisibility() {
+  return _DefaultClassVisibility;
+ }
+
+ public String get_DefaultColumnType() {
+  return _DefaultColumnType;
+ }
+
+ public String get_DefaultConnectionPointStyle() {
+  return _DefaultConnectionPointStyle;
+ }
+
+ public String get_DefaultConnectorStyle() {
+  return _DefaultConnectorStyle;
+ }
+
+ public String get_DefaultDiagramBackground() {
+  return _DefaultDiagramBackground;
+ }
+
+ public String get_DefaultDisplayAsRobustnessAnalysisIcon() {
+  return _DefaultDisplayAsRobustnessAnalysisIcon;
+ }
+
+ public String get_DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram() {
+  return _DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram;
+ }
+
+ public String get_DefaultDisplayAsStereotypeIcon() {
+  return _DefaultDisplayAsStereotypeIcon;
+ }
+
+ public String get_DefaultFontColor() {
+  return _DefaultFontColor;
+ }
+
+ public String get_DefaultGenDiagramTypeFromScenario() {
+  return _DefaultGenDiagramTypeFromScenario;
+ }
+
+ public String get_DefaultHtmlDocFontColor() {
+  return _DefaultHtmlDocFontColor;
+ }
+
+ public String get_DefaultLineJumps() {
+  return _DefaultLineJumps;
+ }
+
+ public String get_DefaultOperationVisibility() {
+  return _DefaultOperationVisibility;
+ }
+
+ public String get_DefaultParameterDirection() {
+  return _DefaultParameterDirection;
+ }
+
+ public String get_DefaultShowAttributeInitialValue() {
+  return _DefaultShowAttributeInitialValue;
+ }
+
+ public String get_DefaultShowAttributeOption() {
+  return _DefaultShowAttributeOption;
+ }
+
+ public String get_DefaultShowClassMemberStereotype() {
+  return _DefaultShowClassMemberStereotype;
+ }
+
+ public String get_DefaultShowDirection() {
+  return _DefaultShowDirection;
+ }
+
+ public String get_DefaultShowMultiplicityConstraints() {
+  return _DefaultShowMultiplicityConstraints;
+ }
+
+ public String get_DefaultShowOperationOption() {
+  return _DefaultShowOperationOption;
+ }
+
+ public String get_DefaultShowOperationSignature() {
+  return _DefaultShowOperationSignature;
+ }
+
+ public String get_DefaultShowOrderedMultiplicityConstraint() {
+  return _DefaultShowOrderedMultiplicityConstraint;
+ }
+
+ public String get_DefaultShowOwnedAssociationEndAsAttribute() {
+  return _DefaultShowOwnedAssociationEndAsAttribute;
+ }
+
+ public String get_DefaultShowOwner() {
+  return _DefaultShowOwner;
+ }
+
+ public String get_DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature() {
+  return _DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature;
+ }
+
+ public String get_DefaultShowReceptionOption() {
+  return _DefaultShowReceptionOption;
+ }
+
+ public String get_DefaultShowTemplateParameter() {
+  return _DefaultShowTemplateParameter;
+ }
+
+ public String get_DefaultShowTypeOption() {
+  return _DefaultShowTypeOption;
+ }
+
+ public String get_DefaultShowUniqueMultiplicityConstraint() {
+  return _DefaultShowUniqueMultiplicityConstraint;
+ }
+
+ public String get_DefaultTypeOfSubProcess() {
+  return _DefaultTypeOfSubProcess;
+ }
+
+ public String get_DefaultWrapClassMember() {
+  return _DefaultWrapClassMember;
+ }
+
+ public String get_DrawTextAnnotationOpenRectangleFollowConnectorEnd() {
+  return _DrawTextAnnotationOpenRectangleFollowConnectorEnd;
+ }
+
+ public String get_EnableMinimumSize() {
+  return _EnableMinimumSize;
+ }
+
+ public String get_EntityColumnConstraintsPresentation() {
+  return _EntityColumnConstraintsPresentation;
+ }
+
+ public String get_ErdIndexNumOfDigits() {
+  return _ErdIndexNumOfDigits;
+ }
+
+ public String get_ErdIndexPattern() {
+  return _ErdIndexPattern;
+ }
+
+ public String get_ErdIndexPatternSyncAutomatically() {
+  return _ErdIndexPatternSyncAutomatically;
+ }
+
+ public String get_ErdManyToManyJoinTableDelimiter() {
+  return _ErdManyToManyJoinTableDelimiter;
+ }
+
+ public String get_EtlTableDiagramFontSize() {
+  return _EtlTableDiagramFontSize;
+ }
+
+ public String get_ExpandedSubProcessDiagramContent() {
+  return _ExpandedSubProcessDiagramContent;
+ }
+
+ public String get_ForeignKeyArrowHeadSize() {
+  return _ForeignKeyArrowHeadSize;
+ }
+
+ public String get_ForeignKeyConnectorEndPointAssociatedColumn() {
+  return _ForeignKeyConnectorEndPointAssociatedColumn;
+ }
+
+ public String get_ForeignKeyNamePattern() {
+  return _ForeignKeyNamePattern;
+ }
+
+ public String get_ForeignKeyNamePatternCaseHandling() {
+  return _ForeignKeyNamePatternCaseHandling;
+ }
+
+ public String get_ForeignKeyRelationshipPattern() {
+  return _ForeignKeyRelationshipPattern;
+ }
+
+ public String get_FractionalMetrics() {
+  return _FractionalMetrics;
+ }
+
+ public String get_GeneralizationSetNotation() {
+  return _GeneralizationSetNotation;
+ }
+
+ public String get_GraphicAntiAliasing() {
+  return _GraphicAntiAliasing;
+ }
+
+ public String get_GridDiagramFontSize() {
+  return _GridDiagramFontSize;
+ }
+
+ public String get_LineJumpSize() {
+  return _LineJumpSize;
+ }
+
+ public String get_ModelElementNameAlignment() {
+  return _ModelElementNameAlignment;
+ }
+
+ public String get_MultipleLineClassName() {
+  return _MultipleLineClassName;
+ }
+
+ public String get_PaintConnectorThroughLabel() {
+  return _PaintConnectorThroughLabel;
+ }
+
+ public String get_PointConnectorEndToCompartmentMember() {
+  return _PointConnectorEndToCompartmentMember;
+ }
+
+ public String get_PrimaryKeyConstraintPattern() {
+  return _PrimaryKeyConstraintPattern;
+ }
+
+ public String get_PrimaryKeyNamePattern() {
+  return _PrimaryKeyNamePattern;
+ }
+
+ public String get_RenameConstructorAfterRenameClass() {
+  return _RenameConstructorAfterRenameClass;
+ }
+
+ public String get_RenameExtensionPointToFollowExtendUseCase() {
+  return _RenameExtensionPointToFollowExtendUseCase;
+ }
+
+ public String get_ShapeAutoFitSize() {
+  return _ShapeAutoFitSize;
+ }
+
+ public String get_ShowActivationsInSequenceDiagram() {
+  return _ShowActivationsInSequenceDiagram;
+ }
+
+ public String get_ShowActivityStateNodeCaption() {
+  return _ShowActivityStateNodeCaption;
+ }
+
+ public String get_ShowArtifactOption() {
+  return _ShowArtifactOption;
+ }
+
+ public String get_ShowAssociatedDiagramNameOfInteraction() {
+  return _ShowAssociatedDiagramNameOfInteraction;
+ }
+
+ public String get_ShowAssociationRoleStereotypes() {
+  return _ShowAssociationRoleStereotypes;
+ }
+
+ public String get_ShowAttributeGetterSetter() {
+  return _ShowAttributeGetterSetter;
+ }
+
+ public String get_ShowBSElementCode() {
+  return _ShowBSElementCode;
+ }
+
+ public String get_ShowClassEmptyCompartments() {
+  return _ShowClassEmptyCompartments;
+ }
+
+ public String get_ShowColumnDefaultValue() {
+  return _ShowColumnDefaultValue;
+ }
+
+ public String get_ShowColumnNullable() {
+  return _ShowColumnNullable;
+ }
+
+ public String get_ShowColumnType() {
+  return _ShowColumnType;
+ }
+
+ public String get_ShowColumnUniqueConstraintName() {
+  return _ShowColumnUniqueConstraintName;
+ }
+
+ public String get_ShowColumnUserType() {
+  return _ShowColumnUserType;
+ }
+
+ public String get_ShowComponentOption() {
+  return _ShowComponentOption;
+ }
+
+ public String get_ShowExtraColumnProperties() {
+  return _ShowExtraColumnProperties;
+ }
+
+ public String get_ShowInOutFlowButtonsInDataFlowDiagram() {
+  return _ShowInOutFlowButtonsInDataFlowDiagram;
+ }
+
+ public String get_ShowInOutFlowsInSubLevelDiagram() {
+  return _ShowInOutFlowsInSubLevelDiagram;
+ }
+
+ public String get_ShowMessageOperationSignatureForSequenceAndCommunicationDiagram() {
+  return _ShowMessageOperationSignatureForSequenceAndCommunicationDiagram;
+ }
+
+ public String get_ShowMessageStereotypeInSequenceAndCommunicationDiagram() {
+  return _ShowMessageStereotypeInSequenceAndCommunicationDiagram;
+ }
+
+ public String get_ShowNumberInCollaborationDiagram() {
+  return _ShowNumberInCollaborationDiagram;
+ }
+
+ public String get_ShowNumberInSequenceDiagram() {
+  return _ShowNumberInSequenceDiagram;
+ }
+
+ public String get_ShowPackageNameStyle() {
+  return _ShowPackageNameStyle;
+ }
+
+ public String get_ShowParameterNameInOperationSignature() {
+  return _ShowParameterNameInOperationSignature;
+ }
+
+ public String get_ShowRowGridLineWithinCompClassDiagram() {
+  return _ShowRowGridLineWithinCompClassDiagram;
+ }
+
+ public String get_ShowRowGridLineWithinCompERD() {
+  return _ShowRowGridLineWithinCompERD;
+ }
+
+ public String get_ShowRowGridLineWithinORMDiagram() {
+  return _ShowRowGridLineWithinORMDiagram;
+ }
+
+ public String get_ShowSchemaNameInERD() {
+  return _ShowSchemaNameInERD;
+ }
+
+ public String get_ShowTransitionTrigger() {
+  return _ShowTransitionTrigger;
+ }
+
+ public String get_ShowUseCaseExtensionPoint() {
+  return _ShowUseCaseExtensionPoint;
+ }
+
+ public String get_ShowUseCaseID() {
+  return _ShowUseCaseID;
+ }
+
+ public String get_SnapConnectorsAfterZoom() {
+  return _SnapConnectorsAfterZoom;
+ }
+
+ public String get_StateShowParametersOfInternalActivities() {
+  return _StateShowParametersOfInternalActivities;
+ }
+
+ public String get_StateShowPrePostConditionAndBodyOfInternalActivities() {
+  return _StateShowPrePostConditionAndBodyOfInternalActivities;
+ }
+
+ public String get_StopTargetLifelineOnCreateDestroyMessage() {
+  return _StopTargetLifelineOnCreateDestroyMessage;
+ }
+
+ public String get_SupportHtmlTaggedValue() {
+  return _SupportHtmlTaggedValue;
+ }
+
+ public String get_SupportMultipleLineAttribute() {
+  return _SupportMultipleLineAttribute;
+ }
+
+ public String get_SuppressImpliedMultiplicityForAttributeAssociationEnd() {
+  return _SuppressImpliedMultiplicityForAttributeAssociationEnd;
+ }
+
+ public String get_SyncAssociationNameWithAssociationClass() {
+  return _SyncAssociationNameWithAssociationClass;
+ }
+
+ public String get_SyncAssociationRoleNameWithReferencedAttributeName() {
+  return _SyncAssociationRoleNameWithReferencedAttributeName;
+ }
+
+ public String get_SyncDocOfInterfaceToSubClass() {
+  return _SyncDocOfInterfaceToSubClass;
+ }
+
+ public String get_TextAntiAliasing() {
+  return _TextAntiAliasing;
+ }
+
+ public String get_TextualAnalysisGenerateRequirementTextOption() {
+  return _TextualAnalysisGenerateRequirementTextOption;
+ }
+
+ public String get_TextualAnalysisHighlightOption() {
+  return _TextualAnalysisHighlightOption;
+ }
+
+ public String get_UnnamedIndexPattern() {
+  return _UnnamedIndexPattern;
+ }
+
+ public String get_UseStateNameTab() {
+  return _UseStateNameTab;
+ }
+
+ public String get_WireflowDiagramDevice() {
+  return _WireflowDiagramDevice;
+ }
+
+ public String get_WireflowDiagramShowActiveFlowLabel() {
+  return _WireflowDiagramShowActiveFlowLabel;
+ }
+
+ public String get_WireflowDiagramTheme() {
+  return _WireflowDiagramTheme;
+ }
+
+ public String get_WireflowDiagramWireflowShowPreview() {
+  return _WireflowDiagramWireflowShowPreview;
+ }
+
+ public String get_WireflowDiagramWireflowShowScreenId() {
+  return _WireflowDiagramWireflowShowScreenId;
+ }
+
+ // Setter Methods 
+
+ public void setDefaultHtmlDocFont(DefaultHtmlDocFont DefaultHtmlDocFontObject) {
+  this.DefaultHtmlDocFontObject = DefaultHtmlDocFontObject;
+ }
+
+ public void set_ActivityDiagramControlFlowDisplayOption(String _ActivityDiagramControlFlowDisplayOption) {
+  this._ActivityDiagramControlFlowDisplayOption = _ActivityDiagramControlFlowDisplayOption;
+ }
+
+ public void set_ActivityDiagramShowActionCallBehaviorOption(String _ActivityDiagramShowActionCallBehaviorOption) {
+  this._ActivityDiagramShowActionCallBehaviorOption = _ActivityDiagramShowActionCallBehaviorOption;
+ }
+
+ public void set_ActivityDiagramShowActivityEdgeWeight(String _ActivityDiagramShowActivityEdgeWeight) {
+  this._ActivityDiagramShowActivityEdgeWeight = _ActivityDiagramShowActivityEdgeWeight;
+ }
+
+ public void set_ActivityDiagramShowObjectNodeType(String _ActivityDiagramShowObjectNodeType) {
+  this._ActivityDiagramShowObjectNodeType = _ActivityDiagramShowObjectNodeType;
+ }
+
+ public void set_ActivityDiagramShowPartitionHandle(String _ActivityDiagramShowPartitionHandle) {
+  this._ActivityDiagramShowPartitionHandle = _ActivityDiagramShowPartitionHandle;
+ }
+
+ public void set_AddDataStoresExtEntitiesToDecomposedDFD(String _AddDataStoresExtEntitiesToDecomposedDFD) {
+  this._AddDataStoresExtEntitiesToDecomposedDFD = _AddDataStoresExtEntitiesToDecomposedDFD;
+ }
+
+ public void set_AlignColumnProperties(String _AlignColumnProperties) {
+  this._AlignColumnProperties = _AlignColumnProperties;
+ }
+
+ public void set_AllowConfigShowInOutFlowButtonsInDataFlowDiagram(String _AllowConfigShowInOutFlowButtonsInDataFlowDiagram) {
+  this._AllowConfigShowInOutFlowButtonsInDataFlowDiagram = _AllowConfigShowInOutFlowButtonsInDataFlowDiagram;
+ }
+
+ public void set_AutoGenerateRoleName(String _AutoGenerateRoleName) {
+  this._AutoGenerateRoleName = _AutoGenerateRoleName;
+ }
+
+ public void set_AutoSetAttributeType(String _AutoSetAttributeType) {
+  this._AutoSetAttributeType = _AutoSetAttributeType;
+ }
+
+ public void set_AutoSetColumnType(String _AutoSetColumnType) {
+  this._AutoSetColumnType = _AutoSetColumnType;
+ }
+
+ public void set_AutoSyncRoleName(String _AutoSyncRoleName) {
+  this._AutoSyncRoleName = _AutoSyncRoleName;
+ }
+
+ public void set_BpPoolLaneDefaultOrientation(String _BpPoolLaneDefaultOrientation) {
+  this._BpPoolLaneDefaultOrientation = _BpPoolLaneDefaultOrientation;
+ }
+
+ public void set_BpdAutoStretchPools(String _BpdAutoStretchPools) {
+  this._BpdAutoStretchPools = _BpdAutoStretchPools;
+ }
+
+ public void set_BpdConnectGatewayWithFlowObjectInDifferentPool(String _BpdConnectGatewayWithFlowObjectInDifferentPool) {
+  this._BpdConnectGatewayWithFlowObjectInDifferentPool = _BpdConnectGatewayWithFlowObjectInDifferentPool;
+ }
+
+ public void set_BpdDefaultConnectionPointStyle(String _BpdDefaultConnectionPointStyle) {
+  this._BpdDefaultConnectionPointStyle = _BpdDefaultConnectionPointStyle;
+ }
+
+ public void set_BpdDefaultConnectorStyle(String _BpdDefaultConnectorStyle) {
+  this._BpdDefaultConnectorStyle = _BpdDefaultConnectorStyle;
+ }
+
+ public void set_BpdDhowIdOption(String _BpdDhowIdOption) {
+  this._BpdDhowIdOption = _BpdDhowIdOption;
+ }
+
+ public void set_BpdShowActivitiesTypeIcon(String _BpdShowActivitiesTypeIcon) {
+  this._BpdShowActivitiesTypeIcon = _BpdShowActivitiesTypeIcon;
+ }
+
+ public void set_BusinessProcessDiagramDefaultLanguage(String _BusinessProcessDiagramDefaultLanguage) {
+  this._BusinessProcessDiagramDefaultLanguage = _BusinessProcessDiagramDefaultLanguage;
+ }
+
+ public void set_ClassVisibilityStyle(String _ClassVisibilityStyle) {
+  this._ClassVisibilityStyle = _ClassVisibilityStyle;
+ }
+
+ public void set_ConnectorLabelOrientation(String _ConnectorLabelOrientation) {
+  this._ConnectorLabelOrientation = _ConnectorLabelOrientation;
+ }
+
+ public void set_CreateOneMessagePerDirection(String _CreateOneMessagePerDirection) {
+  this._CreateOneMessagePerDirection = _CreateOneMessagePerDirection;
+ }
+
+ public void set_DecisionMergeNodeConnectionPointStyle(String _DecisionMergeNodeConnectionPointStyle) {
+  this._DecisionMergeNodeConnectionPointStyle = _DecisionMergeNodeConnectionPointStyle;
+ }
+
+ public void set_DefaultAssociationEndNavigable(String _DefaultAssociationEndNavigable) {
+  this._DefaultAssociationEndNavigable = _DefaultAssociationEndNavigable;
+ }
+
+ public void set_DefaultAssociationEndVisibility(String _DefaultAssociationEndVisibility) {
+  this._DefaultAssociationEndVisibility = _DefaultAssociationEndVisibility;
+ }
+
+ public void set_DefaultAssociationShowFromMultiplicity(String _DefaultAssociationShowFromMultiplicity) {
+  this._DefaultAssociationShowFromMultiplicity = _DefaultAssociationShowFromMultiplicity;
+ }
+
+ public void set_DefaultAssociationShowFromRoleName(String _DefaultAssociationShowFromRoleName) {
+  this._DefaultAssociationShowFromRoleName = _DefaultAssociationShowFromRoleName;
+ }
+
+ public void set_DefaultAssociationShowFromRoleVisibility(String _DefaultAssociationShowFromRoleVisibility) {
+  this._DefaultAssociationShowFromRoleVisibility = _DefaultAssociationShowFromRoleVisibility;
+ }
+
+ public void set_DefaultAssociationShowStereotypes(String _DefaultAssociationShowStereotypes) {
+  this._DefaultAssociationShowStereotypes = _DefaultAssociationShowStereotypes;
+ }
+
+ public void set_DefaultAssociationShowToMultiplicity(String _DefaultAssociationShowToMultiplicity) {
+  this._DefaultAssociationShowToMultiplicity = _DefaultAssociationShowToMultiplicity;
+ }
+
+ public void set_DefaultAssociationShowToRoleName(String _DefaultAssociationShowToRoleName) {
+  this._DefaultAssociationShowToRoleName = _DefaultAssociationShowToRoleName;
+ }
+
+ public void set_DefaultAssociationShowToRoleVisibility(String _DefaultAssociationShowToRoleVisibility) {
+  this._DefaultAssociationShowToRoleVisibility = _DefaultAssociationShowToRoleVisibility;
+ }
+
+ public void set_DefaultAttributeMultiplicity(String _DefaultAttributeMultiplicity) {
+  this._DefaultAttributeMultiplicity = _DefaultAttributeMultiplicity;
+ }
+
+ public void set_DefaultAttributeType(String _DefaultAttributeType) {
+  this._DefaultAttributeType = _DefaultAttributeType;
+ }
+
+ public void set_DefaultAttributeVisibility(String _DefaultAttributeVisibility) {
+  this._DefaultAttributeVisibility = _DefaultAttributeVisibility;
+ }
+
+ public void set_DefaultClassAttributeMultiplicity(String _DefaultClassAttributeMultiplicity) {
+  this._DefaultClassAttributeMultiplicity = _DefaultClassAttributeMultiplicity;
+ }
+
+ public void set_DefaultClassAttributeMultiplicityOrdered(String _DefaultClassAttributeMultiplicityOrdered) {
+  this._DefaultClassAttributeMultiplicityOrdered = _DefaultClassAttributeMultiplicityOrdered;
+ }
+
+ public void set_DefaultClassAttributeMultiplicityUnique(String _DefaultClassAttributeMultiplicityUnique) {
+  this._DefaultClassAttributeMultiplicityUnique = _DefaultClassAttributeMultiplicityUnique;
+ }
+
+ public void set_DefaultClassInterfaceBall(String _DefaultClassInterfaceBall) {
+  this._DefaultClassInterfaceBall = _DefaultClassInterfaceBall;
+ }
+
+ public void set_DefaultClassVisibility(String _DefaultClassVisibility) {
+  this._DefaultClassVisibility = _DefaultClassVisibility;
+ }
+
+ public void set_DefaultColumnType(String _DefaultColumnType) {
+  this._DefaultColumnType = _DefaultColumnType;
+ }
+
+ public void set_DefaultConnectionPointStyle(String _DefaultConnectionPointStyle) {
+  this._DefaultConnectionPointStyle = _DefaultConnectionPointStyle;
+ }
+
+ public void set_DefaultConnectorStyle(String _DefaultConnectorStyle) {
+  this._DefaultConnectorStyle = _DefaultConnectorStyle;
+ }
+
+ public void set_DefaultDiagramBackground(String _DefaultDiagramBackground) {
+  this._DefaultDiagramBackground = _DefaultDiagramBackground;
+ }
+
+ public void set_DefaultDisplayAsRobustnessAnalysisIcon(String _DefaultDisplayAsRobustnessAnalysisIcon) {
+  this._DefaultDisplayAsRobustnessAnalysisIcon = _DefaultDisplayAsRobustnessAnalysisIcon;
+ }
+
+ public void set_DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram(String _DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram) {
+  this._DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram = _DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram;
+ }
+
+ public void set_DefaultDisplayAsStereotypeIcon(String _DefaultDisplayAsStereotypeIcon) {
+  this._DefaultDisplayAsStereotypeIcon = _DefaultDisplayAsStereotypeIcon;
+ }
+
+ public void set_DefaultFontColor(String _DefaultFontColor) {
+  this._DefaultFontColor = _DefaultFontColor;
+ }
+
+ public void set_DefaultGenDiagramTypeFromScenario(String _DefaultGenDiagramTypeFromScenario) {
+  this._DefaultGenDiagramTypeFromScenario = _DefaultGenDiagramTypeFromScenario;
+ }
+
+ public void set_DefaultHtmlDocFontColor(String _DefaultHtmlDocFontColor) {
+  this._DefaultHtmlDocFontColor = _DefaultHtmlDocFontColor;
+ }
+
+ public void set_DefaultLineJumps(String _DefaultLineJumps) {
+  this._DefaultLineJumps = _DefaultLineJumps;
+ }
+
+ public void set_DefaultOperationVisibility(String _DefaultOperationVisibility) {
+  this._DefaultOperationVisibility = _DefaultOperationVisibility;
+ }
+
+ public void set_DefaultParameterDirection(String _DefaultParameterDirection) {
+  this._DefaultParameterDirection = _DefaultParameterDirection;
+ }
+
+ public void set_DefaultShowAttributeInitialValue(String _DefaultShowAttributeInitialValue) {
+  this._DefaultShowAttributeInitialValue = _DefaultShowAttributeInitialValue;
+ }
+
+ public void set_DefaultShowAttributeOption(String _DefaultShowAttributeOption) {
+  this._DefaultShowAttributeOption = _DefaultShowAttributeOption;
+ }
+
+ public void set_DefaultShowClassMemberStereotype(String _DefaultShowClassMemberStereotype) {
+  this._DefaultShowClassMemberStereotype = _DefaultShowClassMemberStereotype;
+ }
+
+ public void set_DefaultShowDirection(String _DefaultShowDirection) {
+  this._DefaultShowDirection = _DefaultShowDirection;
+ }
+
+ public void set_DefaultShowMultiplicityConstraints(String _DefaultShowMultiplicityConstraints) {
+  this._DefaultShowMultiplicityConstraints = _DefaultShowMultiplicityConstraints;
+ }
+
+ public void set_DefaultShowOperationOption(String _DefaultShowOperationOption) {
+  this._DefaultShowOperationOption = _DefaultShowOperationOption;
+ }
+
+ public void set_DefaultShowOperationSignature(String _DefaultShowOperationSignature) {
+  this._DefaultShowOperationSignature = _DefaultShowOperationSignature;
+ }
+
+ public void set_DefaultShowOrderedMultiplicityConstraint(String _DefaultShowOrderedMultiplicityConstraint) {
+  this._DefaultShowOrderedMultiplicityConstraint = _DefaultShowOrderedMultiplicityConstraint;
+ }
+
+ public void set_DefaultShowOwnedAssociationEndAsAttribute(String _DefaultShowOwnedAssociationEndAsAttribute) {
+  this._DefaultShowOwnedAssociationEndAsAttribute = _DefaultShowOwnedAssociationEndAsAttribute;
+ }
+
+ public void set_DefaultShowOwner(String _DefaultShowOwner) {
+  this._DefaultShowOwner = _DefaultShowOwner;
+ }
+
+ public void set_DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature(String _DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature) {
+  this._DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature = _DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature;
+ }
+
+ public void set_DefaultShowReceptionOption(String _DefaultShowReceptionOption) {
+  this._DefaultShowReceptionOption = _DefaultShowReceptionOption;
+ }
+
+ public void set_DefaultShowTemplateParameter(String _DefaultShowTemplateParameter) {
+  this._DefaultShowTemplateParameter = _DefaultShowTemplateParameter;
+ }
+
+ public void set_DefaultShowTypeOption(String _DefaultShowTypeOption) {
+  this._DefaultShowTypeOption = _DefaultShowTypeOption;
+ }
+
+ public void set_DefaultShowUniqueMultiplicityConstraint(String _DefaultShowUniqueMultiplicityConstraint) {
+  this._DefaultShowUniqueMultiplicityConstraint = _DefaultShowUniqueMultiplicityConstraint;
+ }
+
+ public void set_DefaultTypeOfSubProcess(String _DefaultTypeOfSubProcess) {
+  this._DefaultTypeOfSubProcess = _DefaultTypeOfSubProcess;
+ }
+
+ public void set_DefaultWrapClassMember(String _DefaultWrapClassMember) {
+  this._DefaultWrapClassMember = _DefaultWrapClassMember;
+ }
+
+ public void set_DrawTextAnnotationOpenRectangleFollowConnectorEnd(String _DrawTextAnnotationOpenRectangleFollowConnectorEnd) {
+  this._DrawTextAnnotationOpenRectangleFollowConnectorEnd = _DrawTextAnnotationOpenRectangleFollowConnectorEnd;
+ }
+
+ public void set_EnableMinimumSize(String _EnableMinimumSize) {
+  this._EnableMinimumSize = _EnableMinimumSize;
+ }
+
+ public void set_EntityColumnConstraintsPresentation(String _EntityColumnConstraintsPresentation) {
+  this._EntityColumnConstraintsPresentation = _EntityColumnConstraintsPresentation;
+ }
+
+ public void set_ErdIndexNumOfDigits(String _ErdIndexNumOfDigits) {
+  this._ErdIndexNumOfDigits = _ErdIndexNumOfDigits;
+ }
+
+ public void set_ErdIndexPattern(String _ErdIndexPattern) {
+  this._ErdIndexPattern = _ErdIndexPattern;
+ }
+
+ public void set_ErdIndexPatternSyncAutomatically(String _ErdIndexPatternSyncAutomatically) {
+  this._ErdIndexPatternSyncAutomatically = _ErdIndexPatternSyncAutomatically;
+ }
+
+ public void set_ErdManyToManyJoinTableDelimiter(String _ErdManyToManyJoinTableDelimiter) {
+  this._ErdManyToManyJoinTableDelimiter = _ErdManyToManyJoinTableDelimiter;
+ }
+
+ public void set_EtlTableDiagramFontSize(String _EtlTableDiagramFontSize) {
+  this._EtlTableDiagramFontSize = _EtlTableDiagramFontSize;
+ }
+
+ public void set_ExpandedSubProcessDiagramContent(String _ExpandedSubProcessDiagramContent) {
+  this._ExpandedSubProcessDiagramContent = _ExpandedSubProcessDiagramContent;
+ }
+
+ public void set_ForeignKeyArrowHeadSize(String _ForeignKeyArrowHeadSize) {
+  this._ForeignKeyArrowHeadSize = _ForeignKeyArrowHeadSize;
+ }
+
+ public void set_ForeignKeyConnectorEndPointAssociatedColumn(String _ForeignKeyConnectorEndPointAssociatedColumn) {
+  this._ForeignKeyConnectorEndPointAssociatedColumn = _ForeignKeyConnectorEndPointAssociatedColumn;
+ }
+
+ public void set_ForeignKeyNamePattern(String _ForeignKeyNamePattern) {
+  this._ForeignKeyNamePattern = _ForeignKeyNamePattern;
+ }
+
+ public void set_ForeignKeyNamePatternCaseHandling(String _ForeignKeyNamePatternCaseHandling) {
+  this._ForeignKeyNamePatternCaseHandling = _ForeignKeyNamePatternCaseHandling;
+ }
+
+ public void set_ForeignKeyRelationshipPattern(String _ForeignKeyRelationshipPattern) {
+  this._ForeignKeyRelationshipPattern = _ForeignKeyRelationshipPattern;
+ }
+
+ public void set_FractionalMetrics(String _FractionalMetrics) {
+  this._FractionalMetrics = _FractionalMetrics;
+ }
+
+ public void set_GeneralizationSetNotation(String _GeneralizationSetNotation) {
+  this._GeneralizationSetNotation = _GeneralizationSetNotation;
+ }
+
+ public void set_GraphicAntiAliasing(String _GraphicAntiAliasing) {
+  this._GraphicAntiAliasing = _GraphicAntiAliasing;
+ }
+
+ public void set_GridDiagramFontSize(String _GridDiagramFontSize) {
+  this._GridDiagramFontSize = _GridDiagramFontSize;
+ }
+
+ public void set_LineJumpSize(String _LineJumpSize) {
+  this._LineJumpSize = _LineJumpSize;
+ }
+
+ public void set_ModelElementNameAlignment(String _ModelElementNameAlignment) {
+  this._ModelElementNameAlignment = _ModelElementNameAlignment;
+ }
+
+ public void set_MultipleLineClassName(String _MultipleLineClassName) {
+  this._MultipleLineClassName = _MultipleLineClassName;
+ }
+
+ public void set_PaintConnectorThroughLabel(String _PaintConnectorThroughLabel) {
+  this._PaintConnectorThroughLabel = _PaintConnectorThroughLabel;
+ }
+
+ public void set_PointConnectorEndToCompartmentMember(String _PointConnectorEndToCompartmentMember) {
+  this._PointConnectorEndToCompartmentMember = _PointConnectorEndToCompartmentMember;
+ }
+
+ public void set_PrimaryKeyConstraintPattern(String _PrimaryKeyConstraintPattern) {
+  this._PrimaryKeyConstraintPattern = _PrimaryKeyConstraintPattern;
+ }
+
+ public void set_PrimaryKeyNamePattern(String _PrimaryKeyNamePattern) {
+  this._PrimaryKeyNamePattern = _PrimaryKeyNamePattern;
+ }
+
+ public void set_RenameConstructorAfterRenameClass(String _RenameConstructorAfterRenameClass) {
+  this._RenameConstructorAfterRenameClass = _RenameConstructorAfterRenameClass;
+ }
+
+ public void set_RenameExtensionPointToFollowExtendUseCase(String _RenameExtensionPointToFollowExtendUseCase) {
+  this._RenameExtensionPointToFollowExtendUseCase = _RenameExtensionPointToFollowExtendUseCase;
+ }
+
+ public void set_ShapeAutoFitSize(String _ShapeAutoFitSize) {
+  this._ShapeAutoFitSize = _ShapeAutoFitSize;
+ }
+
+ public void set_ShowActivationsInSequenceDiagram(String _ShowActivationsInSequenceDiagram) {
+  this._ShowActivationsInSequenceDiagram = _ShowActivationsInSequenceDiagram;
+ }
+
+ public void set_ShowActivityStateNodeCaption(String _ShowActivityStateNodeCaption) {
+  this._ShowActivityStateNodeCaption = _ShowActivityStateNodeCaption;
+ }
+
+ public void set_ShowArtifactOption(String _ShowArtifactOption) {
+  this._ShowArtifactOption = _ShowArtifactOption;
+ }
+
+ public void set_ShowAssociatedDiagramNameOfInteraction(String _ShowAssociatedDiagramNameOfInteraction) {
+  this._ShowAssociatedDiagramNameOfInteraction = _ShowAssociatedDiagramNameOfInteraction;
+ }
+
+ public void set_ShowAssociationRoleStereotypes(String _ShowAssociationRoleStereotypes) {
+  this._ShowAssociationRoleStereotypes = _ShowAssociationRoleStereotypes;
+ }
+
+ public void set_ShowAttributeGetterSetter(String _ShowAttributeGetterSetter) {
+  this._ShowAttributeGetterSetter = _ShowAttributeGetterSetter;
+ }
+
+ public void set_ShowBSElementCode(String _ShowBSElementCode) {
+  this._ShowBSElementCode = _ShowBSElementCode;
+ }
+
+ public void set_ShowClassEmptyCompartments(String _ShowClassEmptyCompartments) {
+  this._ShowClassEmptyCompartments = _ShowClassEmptyCompartments;
+ }
+
+ public void set_ShowColumnDefaultValue(String _ShowColumnDefaultValue) {
+  this._ShowColumnDefaultValue = _ShowColumnDefaultValue;
+ }
+
+ public void set_ShowColumnNullable(String _ShowColumnNullable) {
+  this._ShowColumnNullable = _ShowColumnNullable;
+ }
+
+ public void set_ShowColumnType(String _ShowColumnType) {
+  this._ShowColumnType = _ShowColumnType;
+ }
+
+ public void set_ShowColumnUniqueConstraintName(String _ShowColumnUniqueConstraintName) {
+  this._ShowColumnUniqueConstraintName = _ShowColumnUniqueConstraintName;
+ }
+
+ public void set_ShowColumnUserType(String _ShowColumnUserType) {
+  this._ShowColumnUserType = _ShowColumnUserType;
+ }
+
+ public void set_ShowComponentOption(String _ShowComponentOption) {
+  this._ShowComponentOption = _ShowComponentOption;
+ }
+
+ public void set_ShowExtraColumnProperties(String _ShowExtraColumnProperties) {
+  this._ShowExtraColumnProperties = _ShowExtraColumnProperties;
+ }
+
+ public void set_ShowInOutFlowButtonsInDataFlowDiagram(String _ShowInOutFlowButtonsInDataFlowDiagram) {
+  this._ShowInOutFlowButtonsInDataFlowDiagram = _ShowInOutFlowButtonsInDataFlowDiagram;
+ }
+
+ public void set_ShowInOutFlowsInSubLevelDiagram(String _ShowInOutFlowsInSubLevelDiagram) {
+  this._ShowInOutFlowsInSubLevelDiagram = _ShowInOutFlowsInSubLevelDiagram;
+ }
+
+ public void set_ShowMessageOperationSignatureForSequenceAndCommunicationDiagram(String _ShowMessageOperationSignatureForSequenceAndCommunicationDiagram) {
+  this._ShowMessageOperationSignatureForSequenceAndCommunicationDiagram = _ShowMessageOperationSignatureForSequenceAndCommunicationDiagram;
+ }
+
+ public void set_ShowMessageStereotypeInSequenceAndCommunicationDiagram(String _ShowMessageStereotypeInSequenceAndCommunicationDiagram) {
+  this._ShowMessageStereotypeInSequenceAndCommunicationDiagram = _ShowMessageStereotypeInSequenceAndCommunicationDiagram;
+ }
+
+ public void set_ShowNumberInCollaborationDiagram(String _ShowNumberInCollaborationDiagram) {
+  this._ShowNumberInCollaborationDiagram = _ShowNumberInCollaborationDiagram;
+ }
+
+ public void set_ShowNumberInSequenceDiagram(String _ShowNumberInSequenceDiagram) {
+  this._ShowNumberInSequenceDiagram = _ShowNumberInSequenceDiagram;
+ }
+
+ public void set_ShowPackageNameStyle(String _ShowPackageNameStyle) {
+  this._ShowPackageNameStyle = _ShowPackageNameStyle;
+ }
+
+ public void set_ShowParameterNameInOperationSignature(String _ShowParameterNameInOperationSignature) {
+  this._ShowParameterNameInOperationSignature = _ShowParameterNameInOperationSignature;
+ }
+
+ public void set_ShowRowGridLineWithinCompClassDiagram(String _ShowRowGridLineWithinCompClassDiagram) {
+  this._ShowRowGridLineWithinCompClassDiagram = _ShowRowGridLineWithinCompClassDiagram;
+ }
+
+ public void set_ShowRowGridLineWithinCompERD(String _ShowRowGridLineWithinCompERD) {
+  this._ShowRowGridLineWithinCompERD = _ShowRowGridLineWithinCompERD;
+ }
+
+ public void set_ShowRowGridLineWithinORMDiagram(String _ShowRowGridLineWithinORMDiagram) {
+  this._ShowRowGridLineWithinORMDiagram = _ShowRowGridLineWithinORMDiagram;
+ }
+
+ public void set_ShowSchemaNameInERD(String _ShowSchemaNameInERD) {
+  this._ShowSchemaNameInERD = _ShowSchemaNameInERD;
+ }
+
+ public void set_ShowTransitionTrigger(String _ShowTransitionTrigger) {
+  this._ShowTransitionTrigger = _ShowTransitionTrigger;
+ }
+
+ public void set_ShowUseCaseExtensionPoint(String _ShowUseCaseExtensionPoint) {
+  this._ShowUseCaseExtensionPoint = _ShowUseCaseExtensionPoint;
+ }
+
+ public void set_ShowUseCaseID(String _ShowUseCaseID) {
+  this._ShowUseCaseID = _ShowUseCaseID;
+ }
+
+ public void set_SnapConnectorsAfterZoom(String _SnapConnectorsAfterZoom) {
+  this._SnapConnectorsAfterZoom = _SnapConnectorsAfterZoom;
+ }
+
+ public void set_StateShowParametersOfInternalActivities(String _StateShowParametersOfInternalActivities) {
+  this._StateShowParametersOfInternalActivities = _StateShowParametersOfInternalActivities;
+ }
+
+ public void set_StateShowPrePostConditionAndBodyOfInternalActivities(String _StateShowPrePostConditionAndBodyOfInternalActivities) {
+  this._StateShowPrePostConditionAndBodyOfInternalActivities = _StateShowPrePostConditionAndBodyOfInternalActivities;
+ }
+
+ public void set_StopTargetLifelineOnCreateDestroyMessage(String _StopTargetLifelineOnCreateDestroyMessage) {
+  this._StopTargetLifelineOnCreateDestroyMessage = _StopTargetLifelineOnCreateDestroyMessage;
+ }
+
+ public void set_SupportHtmlTaggedValue(String _SupportHtmlTaggedValue) {
+  this._SupportHtmlTaggedValue = _SupportHtmlTaggedValue;
+ }
+
+ public void set_SupportMultipleLineAttribute(String _SupportMultipleLineAttribute) {
+  this._SupportMultipleLineAttribute = _SupportMultipleLineAttribute;
+ }
+
+ public void set_SuppressImpliedMultiplicityForAttributeAssociationEnd(String _SuppressImpliedMultiplicityForAttributeAssociationEnd) {
+  this._SuppressImpliedMultiplicityForAttributeAssociationEnd = _SuppressImpliedMultiplicityForAttributeAssociationEnd;
+ }
+
+ public void set_SyncAssociationNameWithAssociationClass(String _SyncAssociationNameWithAssociationClass) {
+  this._SyncAssociationNameWithAssociationClass = _SyncAssociationNameWithAssociationClass;
+ }
+
+ public void set_SyncAssociationRoleNameWithReferencedAttributeName(String _SyncAssociationRoleNameWithReferencedAttributeName) {
+  this._SyncAssociationRoleNameWithReferencedAttributeName = _SyncAssociationRoleNameWithReferencedAttributeName;
+ }
+
+ public void set_SyncDocOfInterfaceToSubClass(String _SyncDocOfInterfaceToSubClass) {
+  this._SyncDocOfInterfaceToSubClass = _SyncDocOfInterfaceToSubClass;
+ }
+
+ public void set_TextAntiAliasing(String _TextAntiAliasing) {
+  this._TextAntiAliasing = _TextAntiAliasing;
+ }
+
+ public void set_TextualAnalysisGenerateRequirementTextOption(String _TextualAnalysisGenerateRequirementTextOption) {
+  this._TextualAnalysisGenerateRequirementTextOption = _TextualAnalysisGenerateRequirementTextOption;
+ }
+
+ public void set_TextualAnalysisHighlightOption(String _TextualAnalysisHighlightOption) {
+  this._TextualAnalysisHighlightOption = _TextualAnalysisHighlightOption;
+ }
+
+ public void set_UnnamedIndexPattern(String _UnnamedIndexPattern) {
+  this._UnnamedIndexPattern = _UnnamedIndexPattern;
+ }
+
+ public void set_UseStateNameTab(String _UseStateNameTab) {
+  this._UseStateNameTab = _UseStateNameTab;
+ }
+
+ public void set_WireflowDiagramDevice(String _WireflowDiagramDevice) {
+  this._WireflowDiagramDevice = _WireflowDiagramDevice;
+ }
+
+ public void set_WireflowDiagramShowActiveFlowLabel(String _WireflowDiagramShowActiveFlowLabel) {
+  this._WireflowDiagramShowActiveFlowLabel = _WireflowDiagramShowActiveFlowLabel;
+ }
+
+ public void set_WireflowDiagramTheme(String _WireflowDiagramTheme) {
+  this._WireflowDiagramTheme = _WireflowDiagramTheme;
+ }
+
+ public void set_WireflowDiagramWireflowShowPreview(String _WireflowDiagramWireflowShowPreview) {
+  this._WireflowDiagramWireflowShowPreview = _WireflowDiagramWireflowShowPreview;
+ }
+
+ public void set_WireflowDiagramWireflowShowScreenId(String _WireflowDiagramWireflowShowScreenId) {
+  this._WireflowDiagramWireflowShowScreenId = _WireflowDiagramWireflowShowScreenId;
+ }
+}
+public class DefaultHtmlDocFont {
+ private String _Family;
+ private String _Size;
+ private String _Style;
+
+
+ // Getter Methods 
+
+ public String get_Family() {
+  return _Family;
+ }
+
+ public String get_Size() {
+  return _Size;
+ }
+
+ public String get_Style() {
+  return _Style;
+ }
+
+ // Setter Methods 
+
+ public void set_Family(String _Family) {
+  this._Family = _Family;
+ }
+
+ public void set_Size(String _Size) {
+  this._Size = _Size;
+ }
+
+ public void set_Style(String _Style) {
+  this._Style = _Style;
+ }
+}
